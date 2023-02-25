@@ -1,0 +1,14 @@
+# vsim -Lf 220model -Lf altera_mf_ver -Lf verilog -do {run -all} -c -pli simfpga.vpi tb 
+# Loading ./simfpga.vpi
+# Loading work.tb
+# Loading sv_std.std
+# Loading work.Top
+# Loading work.student_id
+# Loading work.frequency_divider
+# Loading work.ROM
+# Loading work.seven_segment
+# run -all 
+# Time scaling: 0.0001 sim seconds per real-time second
+# 
+# 
+# Connected to server!

@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/Desktop/DE0_CV {D:/Desktop/DE0_CV/DE0_CV.v}
+vlog -sv -work work +incdir+D:/Desktop/DE0_CV {D:/Desktop/DE0_CV/sub_4bit.sv}
+
