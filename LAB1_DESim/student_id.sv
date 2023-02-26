@@ -2,7 +2,8 @@ module student_id(
 	input clk_50M,
 	input reset, //為0時重置系統
 	input reset_div,
-	output logic[6:0] out
+	output logic[6:0] out,
+	output btn_0, btn_1
 	);
 	
 	logic clk; //除頻後的clk
@@ -10,7 +11,8 @@ module student_id(
 	logic[3:0] num;
 	
 	//FSM
-	
+	assign btn_0 = reset;
+	assign btn_1 = reset_div;
 	
 	//除頻器(1/2)
 	frequency_divider div1(

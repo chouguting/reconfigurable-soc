@@ -22,7 +22,9 @@ student_id id1(
 		.clk_50M(CLOCK_50),
 		.reset(KEY[0]),
 		.reset_div(KEY[1]),
-		.out(HEX0)
+		.out(HEX0),
+        .btn_0(LEDR[0]),
+        .btn_1(LEDR[1])
 	);
 
 

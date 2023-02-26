@@ -1,0 +1,50 @@
+m255
+K3
+z0
+13
+cModel Technology
+dC:\Users\choug\fpgaProjects\reconfigurable-soc\TEST\simulation\qsim
+vTEST
+Z0 !s110 1677334711
+!i10b 1
+!s100 DV[9RXg<XS_?IUm8RAFkP1
+IXE?d`;iE4ES4V651V^fUj0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/choug/fpgaProjects/reconfigurable-soc/TEST/simulation/qsim
+w1677334711
+8TEST.vo
+FTEST.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1677334711.000000
+!s107 TEST.vo|
+!s90 -work|work|TEST.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@t@e@s@t
+vTEST_vlg_vec_tst
+R0
+!i10b 1
+!s100 ZkeaPhOZGL8D?;o?KM5`31
+IRcAnUH:1Ed^ho^O9d6:dz2
+R1
+R2
+w1677334710
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+n@t@e@s@t_vlg_vec_tst

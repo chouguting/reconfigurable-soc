@@ -1,0 +1,11 @@
+module TEST(
+	input a,b,
+	output result
+);
+
+	always_comb begin
+		if(a==b) result = 0;
+		else result = 1;
+	end
+
+endmodule;

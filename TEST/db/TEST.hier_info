@@ -1,0 +1,22 @@
+|TEST
+clk => clk.IN1
+reset => reset.IN1
+result[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= result[1].DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= result[3].DB_MAX_OUTPUT_PORT_TYPE
+clk_div <= freq_div:f1.clk_out
+
+
+|TEST|freq_div:f1
+clk_in => counter[0].CLK
+clk_in => counter[1].CLK
+clk_in => counter[2].CLK
+clk_in => clk_out~reg0.CLK
+reset => counter[0].ACLR
+reset => counter[1].ACLR
+reset => counter[2].ACLR
+reset => clk_out~reg0.ACLR
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

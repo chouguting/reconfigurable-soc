@@ -2,7 +2,7 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\User\Desktop\LAB1_DESim\sim
+Z0 dC:\Users\choug\fpgaProjects\reconfigurable-soc\LAB1_DESim\sim
 vfrequency_divider
 Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
 !i10b 1
@@ -11,8 +11,8 @@ I7Ma8@f83_ODVML0[HCYFc1
 Vdd9P^^YBOl9Y7SFAUj?aL1
 !s105 frequency_divider_sv_unit
 S1
-Z2 dC:\Users\User\Desktop\LAB1_DESim\sim
-w1677028669
+Z2 dC:\Users\choug\fpgaProjects\reconfigurable-soc\LAB1_DESim\sim
+w1677028670
 8../frequency_divider.sv
 F../frequency_divider.sv
 L0 1
@@ -20,7 +20,7 @@ Z3 OV;L;10.1d;51
 r1
 !s85 0
 31
-Z4 !s108 1677036806.886000
+Z4 !s108 1677418137.597000
 Z5 !s107 ../Top.sv|../student_id.sv|../seven_segment.sv|../ROM.sv|../frequency_divider.sv|
 Z6 !s90 -nolock|../frequency_divider.sv|../ROM.sv|../seven_segment.sv|../student_id.sv|../Top.sv|
 !s101 -O0
@@ -28,13 +28,13 @@ Z7 o-nolock -O0
 vROM
 R1
 !i10b 1
-!s100 M`Ci3?XH9RWYNY7EiVz2F1
-I;FVY6XQF`cm2_`QR9ia[92
+!s100 6JGHYXMb0?YJm:E^gcSi?3
+IeHf:9m?z^B1Z2;Y2P]dQ73
 VYT68_<07FXlP2JSjEl92U0
 !s105 ROM_sv_unit
 S1
 R2
-w1676731774
+w1677417900
 8../ROM.sv
 F../ROM.sv
 L0 1
@@ -57,7 +57,7 @@ V5HHPhBoZBS8FAC^=WK]L21
 !s105 seven_segment_sv_unit
 S1
 R2
-w1664153014
+w1664153016
 8../seven_segment.sv
 F../seven_segment.sv
 L0 1
@@ -73,13 +73,13 @@ R7
 vstudent_id
 R1
 !i10b 1
-!s100 54[=>mogcT]9_QfJ@Pdi`3
-I4d`QX2FH<Bc_ShFUlmzDU3
-Vo2ekmDJc`mBX9;=S2;Pgh2
+!s100 MkPMG7nULR?ggUTeDoXAk2
+IzSmd1I3`O4]SUkhHf5NGX3
+V<`fGT0lhAILaU7DJ4A>Ug1
 !s105 student_id_sv_unit
 S1
 R2
-w1677027237
+w1677334980
 8../student_id.sv
 F../student_id.sv
 L0 1
@@ -107,20 +107,20 @@ R7
 !i10b 1
 Z13 !s100 B0l2m:l]cM`Iji9?Q3;@L1
 !s85 0
-Z14 !s108 1677036806.848000
+Z14 !s108 1677418137.561000
 Z15 !s107 ../tb/tb.v|
 Z16 !s90 -nolock|../tb/tb.v|
 !s101 -O0
 vTop
 R1
 !i10b 1
-!s100 =O6[K_DZGb:><>Yla6^8N1
-I;RYUEmK@Z^CYOR9jn2JJW0
+!s100 A@RW_01R5gz]1_gM9PIPO2
+I:?g_7XB:08^_C:BEibDIT1
 VN_6^z]f1MP]d4=If1E0;;2
 !s105 Top_sv_unit
 S1
 R2
-w1676965636
+w1677335066
 8../Top.sv
 F../Top.sv
 L0 7
