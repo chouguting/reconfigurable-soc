@@ -1,0 +1,250 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do counterPlusRegister_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister {C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:46:42 on Mar 11,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister" C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister.sv 
+# -- Compiling module counterPlusRegister
+# 
+# Top level modules:
+# 	counterPlusRegister
+# End time: 20:46:42 on Mar 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister {C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:46:42 on Mar 11,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister" C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv 
+# -- Compiling module counterPlusRegister_tb
+# 
+# Top level modules:
+# 	counterPlusRegister_tb
+# End time: 20:46:42 on Mar 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  counterPlusRegister_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" counterPlusRegister_tb 
+# Start time: 20:46:42 on Mar 11,2023
+# Loading sv_std.std
+# Loading work.counterPlusRegister_tb
+# Loading work.counterPlusRegister
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# w =  0
+# w =  7
+# w = 12
+# ** Note: $stop    : C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv(16)
+#    Time: 120 ns  Iteration: 0  Instance: /counterPlusRegister_tb
+# Break in Module counterPlusRegister_tb at C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv line 16
+run
+add wave -position end  sim:/counterPlusRegister_tb/cpr/cnt_1
+add wave -position end  sim:/counterPlusRegister_tb/cpr/cnt_2
+restart -f
+run -all
+# w =  0
+# w =  7
+# w = 12
+# ** Note: $stop    : C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv(16)
+#    Time: 120 ns  Iteration: 0  Instance: /counterPlusRegister_tb
+# Break in Module counterPlusRegister_tb at C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv line 16
+ls
+# counterPlusRegister.sft  counterPlusRegister.svo  counterPlusRegister_modelsim.xrf  counterPlusRegister_run_msim_rtl_verilog.do  modelsim.ini  msim_transcript  vsim.wlf          
+# 
+# rtl_work:
+# _info  _lib.qdb  _lib1_0.qdb  _lib1_0.qpg  _lib1_0.qtl  _vmake                
+do counterPlusRegister_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# ** Error: (vlib-35) Failed to create directory "rtl_work".
+# File exists. (errno = EEXIST)
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister {C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:56:38 on Mar 11,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister" C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister.sv 
+# -- Compiling module counterPlusRegister
+# 
+# Top level modules:
+# 	counterPlusRegister
+# End time: 20:56:38 on Mar 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister {C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:56:38 on Mar 11,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister" C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv 
+# -- Compiling module counterPlusRegister_tb
+# 
+# Top level modules:
+# 	counterPlusRegister_tb
+# End time: 20:56:38 on Mar 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  counterPlusRegister_tb
+# End time: 20:56:39 on Mar 11,2023, Elapsed time: 0:09:57
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" counterPlusRegister_tb 
+# Start time: 20:56:39 on Mar 11,2023
+# Loading sv_std.std
+# Loading work.counterPlusRegister_tb
+# Loading work.counterPlusRegister
+# 
+# add wave *
+# add wave -position end  sim:/counterPlusRegister_tb/cpr/cnt_1
+# add wave -position end  sim:/counterPlusRegister_tb/cpr/cnt_2
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# w =  0
+# w =  7
+# w = 12
+# ** Note: $stop    : C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv(16)
+#    Time: 120 ns  Iteration: 0  Instance: /counterPlusRegister_tb
+# Break in Module counterPlusRegister_tb at C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv line 16
+do counterPlusRegister_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister \
+# {C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:00:44 on Mar 11,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister" C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister.sv 
+# -- Compiling module counterPlusRegister
+# 
+# Top level modules:
+# 	counterPlusRegister
+# End time: 21:00:44 on Mar 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister \
+# {C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:00:44 on Mar 11,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister" C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv 
+# -- Compiling module counterPlusRegister_tb
+# 
+# Top level modules:
+# 	counterPlusRegister_tb
+# End time: 21:00:44 on Mar 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L \
+# cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  counterPlusRegister_tb
+# End time: 21:00:45 on Mar 11,2023, Elapsed time: 0:04:06
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" counterPlusRegister_tb 
+# Start time: 21:00:45 on Mar 11,2023
+# Loading sv_std.std
+# Loading work.counterPlusRegister_tb
+# Loading work.counterPlusRegister
+# 
+# add wave *
+# add wave -position end  sim:/counterPlusRegister_tb/cpr/cnt_1
+# add wave -position end  sim:/counterPlusRegister_tb/cpr/cnt_2
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# w =  0
+# w =  7
+# w = 12
+# ** Note: $stop    : C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv(16)
+#    Time: 120 ns  Iteration: 0  Instance: /counterPlusRegister_tb
+# Break in Module counterPlusRegister_tb at C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv line 16
+quit -sim
+# End time: 21:01:07 on Mar 11,2023, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+do counterPlusRegister_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister \
+# {C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:01:10 on Mar 11,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister" C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister.sv 
+# -- Compiling module counterPlusRegister
+# 
+# Top level modules:
+# 	counterPlusRegister
+# End time: 21:01:10 on Mar 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister \
+# {C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:01:10 on Mar 11,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister" C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv 
+# -- Compiling module counterPlusRegister_tb
+# 
+# Top level modules:
+# 	counterPlusRegister_tb
+# End time: 21:01:10 on Mar 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L \
+# cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  counterPlusRegister_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" counterPlusRegister_tb 
+# Start time: 21:01:10 on Mar 11,2023
+# Loading sv_std.std
+# Loading work.counterPlusRegister_tb
+# Loading work.counterPlusRegister
+# 
+# add wave *
+# add wave -position end  sim:/counterPlusRegister_tb/cpr/cnt_1
+# add wave -position end  sim:/counterPlusRegister_tb/cpr/cnt_2
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# w =  0
+# w =  7
+# w = 12
+# ** Note: $stop    : C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv(16)
+#    Time: 120 ns  Iteration: 0  Instance: /counterPlusRegister_tb
+# Break in Module counterPlusRegister_tb at C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/counterPlusRegister/counterPlusRegister_tb.sv line 16
+# End time: 21:04:39 on Mar 11,2023, Elapsed time: 0:03:29
+# Errors: 0, Warnings: 0

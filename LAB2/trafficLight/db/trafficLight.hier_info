@@ -1,0 +1,17 @@
+|trafficLight
+clk => current_state[0].CLK
+clk => current_state[1].CLK
+clk => current_state[2].CLK
+clk => current_state[3].CLK
+rst => current_state[0].ACLR
+rst => current_state[1].ACLR
+rst => current_state[2].ACLR
+rst => current_state[3].ACLR
+R[0] << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+R[1] << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Y[0] << Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] << Y.DB_MAX_OUTPUT_PORT_TYPE
+G[0] << WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+G[1] << WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+

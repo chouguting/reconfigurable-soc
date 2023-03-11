@@ -1,0 +1,97 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Handshaking_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/Handshaking {C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/Handshaking/Handshaking.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:22:36 on Mar 11,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/Handshaking" C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/Handshaking/Handshaking.sv 
+# -- Compiling module Handshaking
+# 
+# Top level modules:
+# 	Handshaking
+# End time: 23:22:36 on Mar 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/Handshaking {C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/Handshaking/Handshaking_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:22:36 on Mar 11,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/Handshaking" C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/Handshaking/Handshaking_tb.sv 
+# -- Compiling module Handshaking_tb
+# 
+# Top level modules:
+# 	Handshaking_tb
+# End time: 23:22:36 on Mar 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Handshaking_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Handshaking_tb 
+# Start time: 23:22:36 on Mar 11,2023
+# Loading sv_std.std
+# Loading work.Handshaking_tb
+# Loading work.Handshaking
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# cnt_1 =  0, cnt_2 =  0
+# cnt_1 =  1, cnt_2 =  0
+# cnt_1 =  2, cnt_2 =  0
+# cnt_1 =  3, cnt_2 =  0
+# cnt_1 =  4, cnt_2 =  0
+# cnt_1 =  5, cnt_2 =  0
+# cnt_1 =  5, cnt_2 =  1
+# cnt_1 =  5, cnt_2 =  2
+# cnt_1 =  5, cnt_2 =  3
+# cnt_1 =  5, cnt_2 =  4
+# cnt_1 =  5, cnt_2 =  5
+# cnt_1 =  5, cnt_2 =  6
+# cnt_1 =  6, cnt_2 =  6
+# cnt_1 =  7, cnt_2 =  6
+# cnt_1 =  8, cnt_2 =  6
+# cnt_1 =  9, cnt_2 =  6
+# cnt_1 = 10, cnt_2 =  6
+# cnt_1 = 11, cnt_2 =  6
+# ** Note: $stop    : C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/Handshaking/Handshaking_tb.sv(15)
+#    Time: 220 ns  Iteration: 0  Instance: /Handshaking_tb
+# Break in Module Handshaking_tb at C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/Handshaking/Handshaking_tb.sv line 15
+add wave -position 2  sim:/Handshaking_tb/h_1/fsm1_current_state
+add wave -position 3  sim:/Handshaking_tb/h_1/fsm2_current_state
+add wave -position 4  sim:/Handshaking_tb/h_1/trigger_1
+add wave -position 5  sim:/Handshaking_tb/h_1/trigger_2
+restart -f
+run -all
+# cnt_1 =  0, cnt_2 =  0
+# cnt_1 =  1, cnt_2 =  0
+# cnt_1 =  2, cnt_2 =  0
+# cnt_1 =  3, cnt_2 =  0
+# cnt_1 =  4, cnt_2 =  0
+# cnt_1 =  5, cnt_2 =  0
+# cnt_1 =  5, cnt_2 =  1
+# cnt_1 =  5, cnt_2 =  2
+# cnt_1 =  5, cnt_2 =  3
+# cnt_1 =  5, cnt_2 =  4
+# cnt_1 =  5, cnt_2 =  5
+# cnt_1 =  5, cnt_2 =  6
+# cnt_1 =  6, cnt_2 =  6
+# cnt_1 =  7, cnt_2 =  6
+# cnt_1 =  8, cnt_2 =  6
+# cnt_1 =  9, cnt_2 =  6
+# cnt_1 = 10, cnt_2 =  6
+# cnt_1 = 11, cnt_2 =  6
+# ** Note: $stop    : C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/Handshaking/Handshaking_tb.sv(15)
+#    Time: 220 ns  Iteration: 0  Instance: /Handshaking_tb
+# Break in Module Handshaking_tb at C:/Users/choug/fpgaProjects/reconfigurable-soc/LAB2/Handshaking/Handshaking_tb.sv line 15
+# End time: 04:02:13 on Mar 12,2023, Elapsed time: 4:39:37
+# Errors: 0, Warnings: 0
