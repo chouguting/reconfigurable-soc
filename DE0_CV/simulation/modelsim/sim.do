@@ -1,4 +1,4 @@
-vsim -voptargs=+acc work.test_student_id
+vsim -voptargs=+acc work.testbench
 view structure wave signals
 
 do wave.do

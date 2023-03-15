@@ -1,5 +1,5 @@
 Analysis & Elaboration report for DE0_CV
-Wed Feb 22 11:07:39 2023
+Thu Mar 02 15:06:46 2023
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -9,9 +9,8 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
   1. Legal Notice
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
-  4. Parameter Settings for User Entity Instance: student_id:id1|frequency_divider:div1
-  5. Analysis & Elaboration Settings
-  6. Analysis & Elaboration Messages
+  4. Analysis & Elaboration Settings
+  5. Analysis & Elaboration Messages
 
 
 
@@ -38,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Wed Feb 22 11:07:39 2023       ;
+; Analysis & Elaboration Status ; Successful - Thu Mar 02 15:06:46 2023       ;
 ; Quartus Prime Version         ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                 ; DE0_CV                                      ;
 ; Top-level Entity Name         ; DE0_CV                                      ;
@@ -58,8 +57,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 16          ;
-; Maximum allowed            ; 8           ;
+; Number detected on machine ; 24          ;
+; Maximum allowed            ; 16          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -67,16 +66,6 @@ https://fpgasoftware.intel.com/eula.
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 +----------------------------+-------------+
-
-
-+------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: student_id:id1|frequency_divider:div1 ;
-+----------------+-------+-----------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                      ;
-+----------------+-------+-----------------------------------------------------------+
-; n              ; 24    ; Signed Integer                                            ;
-+----------------+-------+-----------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -172,54 +161,43 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Wed Feb 22 11:07:34 2023
+    Info: Processing started: Thu Mar 02 15:06:42 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DE0_CV -c DE0_CV --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file design/student_id.sv
-    Info (12023): Found entity 1: student_id File: C:/Users/User/Desktop/DE0_CV/design/student_id.sv Line: 1
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(9): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 9
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(10): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 10
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(11): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 11
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(12): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 12
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(13): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 13
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(14): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 14
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(15): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 15
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(16): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 16
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(17): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 17
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(18): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 18
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(19): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 19
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(20): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 20
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(21): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 21
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(22): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 22
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(23): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 23
-Warning (10229): Verilog HDL Expression warning at seven_segment.sv(24): truncated literal to match 7 bits File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 24
-Info (12021): Found 1 design units, including 1 entities, in source file design/seven_segment.sv
-    Info (12023): Found entity 1: seven_segment File: C:/Users/User/Desktop/DE0_CV/design/seven_segment.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file design/rom.sv
-    Info (12023): Found entity 1: ROM File: C:/Users/User/Desktop/DE0_CV/design/ROM.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file design/frequency_divider.sv
-    Info (12023): Found entity 1: frequency_divider File: C:/Users/User/Desktop/DE0_CV/design/frequency_divider.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file design/de0_cv.v
-    Info (12023): Found entity 1: DE0_CV File: C:/Users/User/Desktop/DE0_CV/design/DE0_CV.v Line: 6
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file design/de0_cv.sv
+    Info (12023): Found entity 1: DE0_CV File: D:/DE0_CV/design/DE0_CV.sv Line: 6
+Info (12021): Found 1 design units, including 1 entities, in source file design/sub_4bit.sv
+    Info (12023): Found entity 1: sub_4bit File: D:/DE0_CV/design/sub_4bit.sv Line: 1
 Info (12127): Elaborating entity "DE0_CV" for the top level hierarchy
-Warning (10034): Output port "HEX1" at DE0_CV.v(16) has no driver File: C:/Users/User/Desktop/DE0_CV/design/DE0_CV.v Line: 16
-Warning (10034): Output port "HEX2" at DE0_CV.v(17) has no driver File: C:/Users/User/Desktop/DE0_CV/design/DE0_CV.v Line: 17
-Warning (10034): Output port "HEX3" at DE0_CV.v(18) has no driver File: C:/Users/User/Desktop/DE0_CV/design/DE0_CV.v Line: 18
-Warning (10034): Output port "HEX4" at DE0_CV.v(19) has no driver File: C:/Users/User/Desktop/DE0_CV/design/DE0_CV.v Line: 19
-Warning (10034): Output port "HEX5" at DE0_CV.v(20) has no driver File: C:/Users/User/Desktop/DE0_CV/design/DE0_CV.v Line: 20
-Warning (10034): Output port "LEDR" at DE0_CV.v(27) has no driver File: C:/Users/User/Desktop/DE0_CV/design/DE0_CV.v Line: 27
-Warning (10034): Output port "SD_CLK" at DE0_CV.v(30) has no driver File: C:/Users/User/Desktop/DE0_CV/design/DE0_CV.v Line: 30
-Info (12128): Elaborating entity "student_id" for hierarchy "student_id:id1" File: C:/Users/User/Desktop/DE0_CV/design/DE0_CV.v Line: 49
-Warning (10230): Verilog HDL assignment warning at student_id.sv(37): truncated value with size 32 to match size of target (3) File: C:/Users/User/Desktop/DE0_CV/design/student_id.sv Line: 37
-Info (12128): Elaborating entity "frequency_divider" for hierarchy "student_id:id1|frequency_divider:div1" File: C:/Users/User/Desktop/DE0_CV/design/student_id.sv Line: 20
-Warning (10230): Verilog HDL assignment warning at frequency_divider.sv(15): truncated value with size 32 to match size of target (24) File: C:/Users/User/Desktop/DE0_CV/design/frequency_divider.sv Line: 15
-Info (12128): Elaborating entity "ROM" for hierarchy "student_id:id1|ROM:Rom1" File: C:/Users/User/Desktop/DE0_CV/design/student_id.sv Line: 42
-Info (12128): Elaborating entity "seven_segment" for hierarchy "student_id:id1|seven_segment:Seg1" File: C:/Users/User/Desktop/DE0_CV/design/student_id.sv Line: 45
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 26 warnings
+Warning (10034): Output port "DRAM_ADDR" at DE0_CV.sv(15) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 15
+Warning (10034): Output port "DRAM_BA" at DE0_CV.sv(16) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 16
+Warning (10034): Output port "HEX0" at DE0_CV.sv(28) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 28
+Warning (10034): Output port "HEX1" at DE0_CV.sv(29) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 29
+Warning (10034): Output port "HEX2" at DE0_CV.sv(30) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 30
+Warning (10034): Output port "HEX3" at DE0_CV.sv(31) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 31
+Warning (10034): Output port "HEX4" at DE0_CV.sv(32) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 32
+Warning (10034): Output port "HEX5" at DE0_CV.sv(33) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 33
+Warning (10034): Output port "LEDR[9..4]" at DE0_CV.sv(40) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 40
+Warning (10034): Output port "VGA_B" at DE0_CV.sv(57) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 57
+Warning (10034): Output port "VGA_G" at DE0_CV.sv(58) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 58
+Warning (10034): Output port "VGA_R" at DE0_CV.sv(60) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 60
+Warning (10034): Output port "DRAM_CAS_N" at DE0_CV.sv(17) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 17
+Warning (10034): Output port "DRAM_CKE" at DE0_CV.sv(18) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 18
+Warning (10034): Output port "DRAM_CLK" at DE0_CV.sv(19) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 19
+Warning (10034): Output port "DRAM_CS_N" at DE0_CV.sv(20) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 20
+Warning (10034): Output port "DRAM_LDQM" at DE0_CV.sv(22) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 22
+Warning (10034): Output port "DRAM_RAS_N" at DE0_CV.sv(23) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 23
+Warning (10034): Output port "DRAM_UDQM" at DE0_CV.sv(24) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 24
+Warning (10034): Output port "DRAM_WE_N" at DE0_CV.sv(25) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 25
+Warning (10034): Output port "SD_CLK" at DE0_CV.sv(49) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 49
+Warning (10034): Output port "VGA_HS" at DE0_CV.sv(59) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 59
+Warning (10034): Output port "VGA_VS" at DE0_CV.sv(61) has no driver File: D:/DE0_CV/design/DE0_CV.sv Line: 61
+Info (12128): Elaborating entity "sub_4bit" for hierarchy "sub_4bit:s1" File: D:/DE0_CV/design/DE0_CV.sv Line: 86
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 24 warnings
     Info: Peak virtual memory: 4767 megabytes
-    Info: Processing ended: Wed Feb 22 11:07:39 2023
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:14
+    Info: Processing ended: Thu Mar 02 15:06:46 2023
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:11
 
 

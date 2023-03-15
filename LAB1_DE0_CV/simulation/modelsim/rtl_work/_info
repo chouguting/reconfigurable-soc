@@ -1,0 +1,147 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/Desktop/DE0_CV/simulation/modelsim
+vDE0_CV
+Z1 !s110 1677035641
+!i10b 1
+!s100 Zz^Nh<Nz9EaRg:lQYcH^E0
+IIWL5ZmJ=U737OMPZzPQ1<1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1676952952
+8../../design/DE0_CV.v
+F../../design/DE0_CV.v
+L0 6
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1677035641.000000
+!s107 ../../design/DE0_CV.v|
+!s90 -reportprogress|300|../../design/DE0_CV.v|
+!i113 1
+Z5 tCvgOpt 0
+n@d@e0_@c@v
+vfrequency_divider
+Z6 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R1
+!i10b 1
+!s100 o0nQ@_[U=em:]W@eli;z40
+IURb]i4fejMTm^L=h327950
+R2
+!s105 frequency_divider_sv_unit
+S1
+R0
+w1677035411
+8../../design/frequency_divider.sv
+F../../design/frequency_divider.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../design/frequency_divider.sv|
+!s90 -reportprogress|300|../../design/frequency_divider.sv|
+!i113 1
+R5
+vROM
+R6
+R1
+!i10b 1
+!s100 Cn8Pl?iNkL5e2lEO[Si7@0
+I@LiO]dHZS>o@^Ya6=TlR60
+R2
+!s105 ROM_sv_unit
+S1
+R0
+w1676731774
+8../../design/ROM.sv
+F../../design/ROM.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../design/ROM.sv|
+!s90 -reportprogress|300|../../design/ROM.sv|
+!i113 1
+R5
+n@r@o@m
+vseven_segment
+R6
+R1
+!i10b 1
+!s100 gPAejfz=n^jOjl5^>g>OZ0
+I9BKXJ=cN1o9Az2@LJUiN^0
+R2
+!s105 seven_segment_sv_unit
+S1
+R0
+w1664153014
+8../../design/seven_segment.sv
+F../../design/seven_segment.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../design/seven_segment.sv|
+!s90 -reportprogress|300|../../design/seven_segment.sv|
+!i113 1
+R5
+vstudent_id
+R6
+R1
+!i10b 1
+!s100 WDmNcIMjV735TH<fNmBSa3
+Inh_e>ig?]E8Dbf4jIf[1b3
+R2
+!s105 student_id_sv_unit
+S1
+R0
+w1677027345
+8../../design/student_id.sv
+F../../design/student_id.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../design/student_id.sv|
+!s90 -reportprogress|300|../../design/student_id.sv|
+!i113 1
+R5
+vtest_student_id
+R6
+R1
+!i10b 1
+!s100 KOll`2QLmJkJPD2oWC^X:1
+Ik24bC[aLLaO:Q1kkz]0<I0
+R2
+!s105 test_student_id_sv_unit
+S1
+R0
+w1676877364
+8../tb/test_student_id.sv
+F../tb/test_student_id.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../tb/test_student_id.sv|
+!s90 -reportprogress|300|../tb/test_student_id.sv|
+!i113 1
+R5

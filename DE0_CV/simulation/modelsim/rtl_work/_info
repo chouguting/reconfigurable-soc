@@ -7,141 +7,74 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/User/Desktop/DE0_CV/simulation/modelsim
+Z0 dD:/DE0_CV/simulation/modelsim
 vDE0_CV
-Z1 !s110 1677035641
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1677740985
 !i10b 1
-!s100 Zz^Nh<Nz9EaRg:lQYcH^E0
-IIWL5ZmJ=U737OMPZzPQ1<1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s100 n3?oeIX>CdB<CF3oh4`KO3
+I4PzY^XK2>PK>Q67a?VCX90
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 DE0_CV_sv_unit
+S1
 R0
-w1676952952
-8../../design/DE0_CV.v
-F../../design/DE0_CV.v
+w1677740707
+8../../design/DE0_CV.sv
+F../../design/DE0_CV.sv
 L0 6
-Z3 OV;L;10.5b;63
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1677035641.000000
-!s107 ../../design/DE0_CV.v|
-!s90 -reportprogress|300|../../design/DE0_CV.v|
+Z5 !s108 1677740985.000000
+!s107 ../../design/DE0_CV.sv|
+!s90 -reportprogress|300|../../design/DE0_CV.sv|
 !i113 1
-Z5 tCvgOpt 0
+Z6 tCvgOpt 0
 n@d@e0_@c@v
-vfrequency_divider
-Z6 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+vsub_4bit
 R1
-!i10b 1
-!s100 o0nQ@_[U=em:]W@eli;z40
-IURb]i4fejMTm^L=h327950
 R2
-!s105 frequency_divider_sv_unit
+!i10b 1
+!s100 KaD<e[^>dVQ050QmmRC3;1
+IhPN7>NO6AaIPm?VMG90o72
+R3
+!s105 sub_4bit_sv_unit
 S1
 R0
-w1677035411
-8../../design/frequency_divider.sv
-F../../design/frequency_divider.sv
+w1676964998
+8../../design/sub_4bit.sv
+F../../design/sub_4bit.sv
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-R4
-!s107 ../../design/frequency_divider.sv|
-!s90 -reportprogress|300|../../design/frequency_divider.sv|
-!i113 1
 R5
-vROM
+!s107 ../../design/sub_4bit.sv|
+!s90 -reportprogress|300|../../design/sub_4bit.sv|
+!i113 1
 R6
+vtestbench
 R1
-!i10b 1
-!s100 Cn8Pl?iNkL5e2lEO[Si7@0
-I@LiO]dHZS>o@^Ya6=TlR60
 R2
-!s105 ROM_sv_unit
+!i10b 1
+!s100 A0JVVceRENU^JQ1dGQNe^1
+IeKidG2O0C]M;l:<lgkT1=0
+R3
+!s105 testbench_sv_unit
 S1
 R0
-w1676731774
-8../../design/ROM.sv
-F../../design/ROM.sv
+w1676354738
+8../tb/testbench.sv
+F../tb/testbench.sv
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-R4
-!s107 ../../design/ROM.sv|
-!s90 -reportprogress|300|../../design/ROM.sv|
-!i113 1
 R5
-n@r@o@m
-vseven_segment
+!s107 ../tb/testbench.sv|
+!s90 -reportprogress|300|../tb/testbench.sv|
+!i113 1
 R6
-R1
-!i10b 1
-!s100 gPAejfz=n^jOjl5^>g>OZ0
-I9BKXJ=cN1o9Az2@LJUiN^0
-R2
-!s105 seven_segment_sv_unit
-S1
-R0
-w1664153014
-8../../design/seven_segment.sv
-F../../design/seven_segment.sv
-L0 1
-R3
-r1
-!s85 0
-31
-R4
-!s107 ../../design/seven_segment.sv|
-!s90 -reportprogress|300|../../design/seven_segment.sv|
-!i113 1
-R5
-vstudent_id
-R6
-R1
-!i10b 1
-!s100 WDmNcIMjV735TH<fNmBSa3
-Inh_e>ig?]E8Dbf4jIf[1b3
-R2
-!s105 student_id_sv_unit
-S1
-R0
-w1677027345
-8../../design/student_id.sv
-F../../design/student_id.sv
-L0 1
-R3
-r1
-!s85 0
-31
-R4
-!s107 ../../design/student_id.sv|
-!s90 -reportprogress|300|../../design/student_id.sv|
-!i113 1
-R5
-vtest_student_id
-R6
-R1
-!i10b 1
-!s100 KOll`2QLmJkJPD2oWC^X:1
-Ik24bC[aLLaO:Q1kkz]0<I0
-R2
-!s105 test_student_id_sv_unit
-S1
-R0
-w1676877364
-8../tb/test_student_id.sv
-F../tb/test_student_id.sv
-L0 1
-R3
-r1
-!s85 0
-31
-R4
-!s107 ../tb/test_student_id.sv|
-!s90 -reportprogress|300|../tb/test_student_id.sv|
-!i113 1
-R5
