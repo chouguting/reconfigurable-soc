@@ -91,7 +91,7 @@ KEY[3] => ~NO_FANOUT~
 RESET_N => ~NO_FANOUT~
 LEDR[0] <= PLL:p1.outclk_0
 LEDR[1] <= PLL:p1.outclk_1
-LEDR[2] <= PLL:p1.outclk_2
+LEDR[2] <= <GND>
 LEDR[3] <= PLL:p1.locked
 LEDR[4] <= <GND>
 LEDR[5] <= <GND>
@@ -212,7 +212,6 @@ refclk => refclk.IN1
 rst => rst.IN1
 outclk_0 <= PLL_0002:pll_inst.outclk_0
 outclk_1 <= PLL_0002:pll_inst.outclk_1
-outclk_2 <= PLL_0002:pll_inst.outclk_2
 locked <= PLL_0002:pll_inst.locked
 
 
@@ -221,19 +220,16 @@ refclk => refclk.IN1
 rst => rst.IN1
 outclk_0 <= altera_pll:altera_pll_i.outclk
 outclk_1 <= altera_pll:altera_pll_i.outclk
-outclk_2 <= altera_pll:altera_pll_i.outclk
 locked <= altera_pll:altera_pll_i.locked
 
 
 |DE0_CV|PLL:p1|PLL_0002:pll_inst|altera_pll:altera_pll_i
 refclk => general[0].gpll.I_REFCLK
 refclk => general[1].gpll.I_REFCLK
-refclk => general[2].gpll.I_REFCLK
 refclk1 => ~NO_FANOUT~
 fbclk => ~NO_FANOUT~
 rst => general[0].gpll.I_RST
 rst => general[1].gpll.I_RST
-rst => general[2].gpll.I_RST
 phase_en => ~NO_FANOUT~
 updn => ~NO_FANOUT~
 num_phase_shifts[0] => ~NO_FANOUT~
@@ -314,7 +310,6 @@ adjpllin => ~NO_FANOUT~
 cclk => ~NO_FANOUT~
 outclk[0] <= general[0].gpll.O_OUTCLK
 outclk[1] <= general[1].gpll.O_OUTCLK
-outclk[2] <= general[2].gpll.O_OUTCLK
 fboutclk <= general[0].gpll.O_FBOUTCLK
 locked <= general[0].gpll.LOCKED
 phase_done <= <GND>
@@ -401,7 +396,6 @@ extclk_out[0] <= <GND>
 extclk_out[1] <= <GND>
 cascade_out[0] <= <GND>
 cascade_out[1] <= <GND>
-cascade_out[2] <= <GND>
 zdbfbclk <> <GND>
 
 

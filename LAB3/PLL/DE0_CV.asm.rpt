@@ -1,5 +1,5 @@
 Assembler report for DE0_CV
-Wed Mar 15 12:28:33 2023
+Sat Mar 18 15:06:46 2023
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -39,7 +39,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed Mar 15 12:28:33 2023 ;
+; Assembler Status      ; Successful - Sat Mar 18 15:06:46 2023 ;
 ; Revision Name         ; DE0_CV                                ;
 ; Top-level Entity Name ; DE0_CV                                ;
 ; Family                ; Cyclone V                             ;
@@ -78,8 +78,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------+----------------------------------------------------------------+
 ; Option         ; Setting                                                        ;
 +----------------+----------------------------------------------------------------+
-; JTAG usercode  ; 0x00BF894E                                                     ;
-; Checksum       ; 0x00BF894E                                                     ;
+; JTAG usercode  ; 0x00C00513                                                     ;
+; Checksum       ; 0x00C00513                                                     ;
 +----------------+----------------------------------------------------------------+
 
 
@@ -89,14 +89,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Wed Mar 15 12:28:29 2023
+    Info: Processing started: Sat Mar 18 15:06:42 2023
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off DE0_CV -c DE0_CV
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4834 megabytes
-    Info: Processing ended: Wed Mar 15 12:28:33 2023
+    Info: Peak virtual memory: 4835 megabytes
+    Info: Processing ended: Sat Mar 18 15:06:46 2023
     Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 

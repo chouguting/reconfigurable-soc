@@ -1,12 +1,12 @@
-Fitter Status : Successful - Wed Mar 15 12:28:27 2023
+Fitter Status : Successful - Sat Mar 18 15:06:40 2023
 Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 Revision Name : DE0_CV
 Top-level Entity Name : DE0_CV
 Family : Cyclone V
 Device : 5CEBA4F23C7
 Timing Models : Final
-Logic utilization (in ALMs) : 291 / 18,480 ( 2 % )
-Total registers : 559
+Logic utilization (in ALMs) : 292 / 18,480 ( 2 % )
+Total registers : 562
 Total pins : 206 / 224 ( 92 % )
 Total virtual pins : 0
 Total block memory bits : 163,840 / 3,153,920 ( 5 % )

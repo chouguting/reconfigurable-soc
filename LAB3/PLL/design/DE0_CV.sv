@@ -83,12 +83,8 @@ PLL p1(.refclk(CLOCK_50),   //  refclk.clk
 		.rst(KEY[0]),      //   reset.reset
 		.outclk_0(LEDR[0]), // outclk0.clk
 		.outclk_1(LEDR[1]), // outclk1.clk
-		.outclk_2(LEDR[2]),
 		.locked(LEDR[3]) );
 
-
-
-	
 	
 
 endmodule
