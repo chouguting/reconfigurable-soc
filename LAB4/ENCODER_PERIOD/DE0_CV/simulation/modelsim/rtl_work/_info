@@ -1,0 +1,139 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/simulation/modelsim
+vDE0_CV
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1679587516
+!i10b 1
+!s100 [DGmcW:;EMiHMeiaT0P_c0
+I_QZJHYRYBG[?h[SOaBdXN3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 DE0_CV_sv_unit
+S1
+R0
+w1679587271
+8C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/DE0_CV.sv
+FC:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/DE0_CV.sv
+L0 6
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1679587515.000000
+!s107 C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/DE0_CV.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/DE0_CV.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design
+Z7 tCvgOpt 0
+n@d@e0_@c@v
+vENCODER_PERIOD
+R1
+R2
+!i10b 1
+!s100 S`SJY_bXmMn_dV?E@AzjA0
+IL=HmY3YK`B@5KY?9`15`V2
+R3
+!s105 ENCODER_PERIOD_sv_unit
+S1
+R0
+w1679587509
+8C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/ENCODER_PERIOD.sv
+FC:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/ENCODER_PERIOD.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z8 !s108 1679587516.000000
+!s107 C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/ENCODER_PERIOD.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/ENCODER_PERIOD.sv|
+!i113 1
+R5
+R6
+R7
+n@e@n@c@o@d@e@r_@p@e@r@i@o@d
+vLow_Pass_Filter_4ENC
+R1
+R2
+!i10b 1
+!s100 lKccBT9HQOSZ11BUR;bQN2
+IF2SOUD[Z7Y4C9aHNgndb60
+R3
+!s105 Low_Pass_Filter_4ENC_sv_unit
+S1
+R0
+w1679583860
+8C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/Low_Pass_Filter_4ENC.sv
+FC:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/Low_Pass_Filter_4ENC.sv
+L0 45
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/Low_Pass_Filter_4ENC.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/Low_Pass_Filter_4ENC.sv|
+!i113 1
+R5
+R6
+R7
+n@low_@pass_@filter_4@e@n@c
+vPOS_EDGE_DETECTOR
+R1
+R2
+!i10b 1
+!s100 ocgY_>dC>RjXR^_VMhA?l1
+IAg8ii<CMTR`]kA5lWaY[C1
+R3
+!s105 POS_EDGE_DETECTOR_sv_unit
+S1
+R0
+w1679586551
+8C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/POS_EDGE_DETECTOR.sv
+FC:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/POS_EDGE_DETECTOR.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/POS_EDGE_DETECTOR.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/POS_EDGE_DETECTOR.sv|
+!i113 1
+R5
+R6
+R7
+n@p@o@s_@e@d@g@e_@d@e@t@e@c@t@o@r
+vtestbench
+R1
+R2
+!i10b 1
+!s100 KTF:d;o5Q4a>egROPYO1;3
+Iio6lCW=dZN^1PUHjOazO@3
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1679583607
+8C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/testbench.sv
+FC:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/testbench.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/testbench.sv|
+!i113 1
+R5
+R6
+R7
