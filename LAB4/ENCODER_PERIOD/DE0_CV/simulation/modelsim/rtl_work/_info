@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/simulation/modelsim
 vDE0_CV
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1679587516
+Z2 !s110 1680055523
 !i10b 1
 !s100 [DGmcW:;EMiHMeiaT0P_c0
 I_QZJHYRYBG[?h[SOaBdXN3
@@ -26,13 +26,13 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1679587515.000000
+Z5 !s108 1680055523.000000
 !s107 C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/DE0_CV.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/DE0_CV.sv|
 !i113 1
-Z5 o-sv -work work
-Z6 !s92 -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design
-Z7 tCvgOpt 0
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design
+Z8 tCvgOpt 0
 n@d@e0_@c@v
 vENCODER_PERIOD
 R1
@@ -52,13 +52,13 @@ R4
 r1
 !s85 0
 31
-Z8 !s108 1679587516.000000
+R5
 !s107 C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/ENCODER_PERIOD.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/ENCODER_PERIOD.sv|
 !i113 1
-R5
 R6
 R7
+R8
 n@e@n@c@o@d@e@r_@p@e@r@i@o@d
 vLow_Pass_Filter_4ENC
 R1
@@ -78,13 +78,13 @@ R4
 r1
 !s85 0
 31
-R8
+R5
 !s107 C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/Low_Pass_Filter_4ENC.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/Low_Pass_Filter_4ENC.sv|
 !i113 1
-R5
 R6
 R7
+R8
 n@low_@pass_@filter_4@e@n@c
 vPOS_EDGE_DETECTOR
 R1
@@ -104,13 +104,13 @@ R4
 r1
 !s85 0
 31
-R8
+R5
 !s107 C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/POS_EDGE_DETECTOR.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/POS_EDGE_DETECTOR.sv|
 !i113 1
-R5
 R6
 R7
+R8
 n@p@o@s_@e@d@g@e_@d@e@t@e@c@t@o@r
 vtestbench
 R1
@@ -130,10 +130,10 @@ R4
 r1
 !s85 0
 31
-R8
+R5
 !s107 C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/testbench.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB4/ENCODER_PERIOD/DE0_CV/design/testbench.sv|
 !i113 1
-R5
 R6
 R7
+R8

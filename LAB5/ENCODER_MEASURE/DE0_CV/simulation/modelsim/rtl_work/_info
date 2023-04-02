@@ -1,0 +1,165 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/simulation/modelsim
+vDE0_CV
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1680430492
+!i10b 1
+!s100 GF@3J;446<`S[]keOn[Qe2
+I>e^U9dCN^XLighU1cLC>_2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 DE0_CV_sv_unit
+S1
+R0
+w1680430451
+8C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/DE0_CV.sv
+FC:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/DE0_CV.sv
+L0 6
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1680430492.000000
+!s107 C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/DE0_CV.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/DE0_CV.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design
+Z8 tCvgOpt 0
+n@d@e0_@c@v
+vENCODER_MEASURE
+R1
+R2
+!i10b 1
+!s100 EIMNb??[a9n7Y9>>d0lKg1
+I4^kJTzEO>1_jHH78Y4PF[1
+R3
+!s105 ENCODER_MEASURE_sv_unit
+S1
+R0
+w1680430013
+8C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/ENCODER_MEASURE.sv
+FC:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/ENCODER_MEASURE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/ENCODER_MEASURE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/ENCODER_MEASURE.sv|
+!i113 1
+R6
+R7
+R8
+n@e@n@c@o@d@e@r_@m@e@a@s@u@r@e
+vENCODER_PERIOD
+R1
+R2
+!i10b 1
+!s100 S`SJY_bXmMn_dV?E@AzjA0
+IAJXNI6_m?ia<FnCa7A`b21
+R3
+!s105 ENCODER_PERIOD_sv_unit
+S1
+R0
+w1679587509
+8C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/ENCODER_PERIOD.sv
+FC:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/ENCODER_PERIOD.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/ENCODER_PERIOD.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/ENCODER_PERIOD.sv|
+!i113 1
+R6
+R7
+R8
+n@e@n@c@o@d@e@r_@p@e@r@i@o@d
+vLow_Pass_Filter_4ENC
+R1
+R2
+!i10b 1
+!s100 lKccBT9HQOSZ11BUR;bQN2
+IFJjENenRRINNd6hf9H<b^2
+R3
+!s105 Low_Pass_Filter_4ENC_sv_unit
+S1
+R0
+w1679583860
+8C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/Low_Pass_Filter_4ENC.sv
+FC:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/Low_Pass_Filter_4ENC.sv
+L0 45
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/Low_Pass_Filter_4ENC.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/Low_Pass_Filter_4ENC.sv|
+!i113 1
+R6
+R7
+R8
+n@low_@pass_@filter_4@e@n@c
+vPOS_EDGE_DETECTOR
+R1
+R2
+!i10b 1
+!s100 ocgY_>dC>RjXR^_VMhA?l1
+IifQ2i_F[Y7BEWF?^F=d0S2
+R3
+!s105 POS_EDGE_DETECTOR_sv_unit
+S1
+R0
+w1679586551
+8C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/POS_EDGE_DETECTOR.sv
+FC:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/POS_EDGE_DETECTOR.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/POS_EDGE_DETECTOR.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/POS_EDGE_DETECTOR.sv|
+!i113 1
+R6
+R7
+R8
+n@p@o@s_@e@d@g@e_@d@e@t@e@c@t@o@r
+vtestbench
+R1
+R2
+!i10b 1
+!s100 C=GSF=f[F=j0a05eV@@Lg0
+I6N`2Z_8H`LaEjTL0cJW`]3
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1680427173
+8C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/testbench.sv
+FC:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/testbench.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design|C:/Users/choug/reconfigurable-soc/LAB5/ENCODER_MEASURE/DE0_CV/design/testbench.sv|
+!i113 1
+R6
+R7
+R8
