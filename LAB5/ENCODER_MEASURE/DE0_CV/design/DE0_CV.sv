@@ -118,11 +118,4 @@ module DE0_CV(
     	.step_dist(step_dist) 
 	);
 
-
-
-
-
-	
-	
-
 endmodule
