@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at DE0_CV.sv(24): object "RESET_N" differs only in case from object "reset_n" in the same scope File: C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/DE0_CV.sv Line: 24
