@@ -37,7 +37,8 @@ module RS232_SINGLE_BYTE(
     logic shift_rx_data;
     logic[7:0] rx_data;
 
-    assign data_debug = rx_data;
+    //assign data_debug = rx_data;
+    logic load_data_debug;
 
     logic[31:0] counter;
     logic counter_reset;
@@ -53,9 +54,12 @@ module RS232_SINGLE_BYTE(
             counter <= 0;
             bit_counter <= 0;
             rx_data <= 8'b0;
+            data_debug <= 8'b0;
         end
         else begin
             current_state <= next_state;
+
+            if(load_data_debug) data_debug <= {rx_filtered, rx_data[7:1]};
 
             if(counter_reset) begin
                 counter <= 0;
@@ -88,6 +92,7 @@ module RS232_SINGLE_BYTE(
         shift_rx_data = 0;
         bit_counter_count = 0;
         bit_counter_reset = 0;
+        load_data_debug = 0;
 
         case (current_state)
             START: begin
@@ -114,6 +119,7 @@ module RS232_SINGLE_BYTE(
                     counter_reset = 1;
                     shift_rx_data = 1;
                     next_state = FINISH;
+                    load_data_debug = 1;
                 end
             end
             FINISH: begin
@@ -122,6 +128,8 @@ module RS232_SINGLE_BYTE(
             end 
         endcase
     end
+
+
 
 
 endmodule

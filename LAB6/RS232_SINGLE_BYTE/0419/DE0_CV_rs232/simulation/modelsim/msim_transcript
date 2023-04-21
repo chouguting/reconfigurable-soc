@@ -12,59 +12,59 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design {C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/RS232_SINGLE_BYTE.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:28:38 on Apr 19,2023
+# Start time: 15:03:28 on Apr 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design" C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/RS232_SINGLE_BYTE.sv 
 # -- Compiling module RS232_SINGLE_BYTE
 # 
 # Top level modules:
 # 	RS232_SINGLE_BYTE
-# End time: 11:28:38 on Apr 19,2023, Elapsed time: 0:00:00
+# End time: 15:03:28 on Apr 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design {C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/NEG_EDGE_DETECTOR.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:28:38 on Apr 19,2023
+# Start time: 15:03:28 on Apr 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design" C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/NEG_EDGE_DETECTOR.sv 
 # -- Compiling module NEG_EDGE_DETECTOR
 # 
 # Top level modules:
 # 	NEG_EDGE_DETECTOR
-# End time: 11:28:38 on Apr 19,2023, Elapsed time: 0:00:00
+# End time: 15:03:28 on Apr 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design {C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/Low_Pass_Filter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:28:38 on Apr 19,2023
+# Start time: 15:03:28 on Apr 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design" C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/Low_Pass_Filter.sv 
 # -- Compiling module Low_Pass_Filter
 # 
 # Top level modules:
 # 	Low_Pass_Filter
-# End time: 11:28:38 on Apr 19,2023, Elapsed time: 0:00:00
+# End time: 15:03:28 on Apr 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design {C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/DE0_CV.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:28:39 on Apr 19,2023
+# Start time: 15:03:29 on Apr 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design" C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/DE0_CV.sv 
 # -- Compiling module DE0_CV
 # 
 # Top level modules:
 # 	DE0_CV
-# End time: 11:28:39 on Apr 19,2023, Elapsed time: 0:00:00
+# End time: 15:03:29 on Apr 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb {C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb/testbench.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:28:39 on Apr 19,2023
+# Start time: 15:03:29 on Apr 21,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb" C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb/testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 11:28:39 on Apr 19,2023, Elapsed time: 0:00:00
+# End time: 15:03:29 on Apr 21,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
-# Start time: 11:28:39 on Apr 19,2023
+# Start time: 15:03:29 on Apr 21,2023
 # Loading sv_std.std
 # Loading work.testbench
 # Loading work.RS232_SINGLE_BYTE
@@ -74,9 +74,9 @@
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: user  Hostname: MARCEL-PC  ProcessID: 3100
-#           Attempting to use alternate WLF file "./wlftqn6wqy".
+#           Attempting to use alternate WLF file "./wlft0k28zc".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftqn6wqy
+#           Using alternate file: ./wlft0k28zc
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
@@ -85,77 +85,20 @@
 # ** Note: $stop    : C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb/testbench.sv(70)
 #    Time: 5470040 ns  Iteration: 0  Instance: /testbench
 # Break in Module testbench at C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb/testbench.sv line 70
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/DE0_CV.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:24 on Apr 19,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design" C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/DE0_CV.sv 
-# -- Compiling module DE0_CV
-# 
-# Top level modules:
-# 	DE0_CV
-# End time: 11:31:24 on Apr 19,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/Low_Pass_Filter.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:24 on Apr 19,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design" C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/Low_Pass_Filter.sv 
-# -- Compiling module Low_Pass_Filter
-# 
-# Top level modules:
-# 	Low_Pass_Filter
-# End time: 11:31:24 on Apr 19,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/NEG_EDGE_DETECTOR.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:25 on Apr 19,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design" C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/NEG_EDGE_DETECTOR.sv 
-# -- Compiling module NEG_EDGE_DETECTOR
-# 
-# Top level modules:
-# 	NEG_EDGE_DETECTOR
-# End time: 11:31:25 on Apr 19,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/RS232_SINGLE_BYTE.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:25 on Apr 19,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design" C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/design/RS232_SINGLE_BYTE.sv 
-# -- Compiling module RS232_SINGLE_BYTE
-# 
-# Top level modules:
-# 	RS232_SINGLE_BYTE
-# End time: 11:31:25 on Apr 19,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb/testbench.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:26 on Apr 19,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb" C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb/testbench.sv 
-# -- Compiling module testbench
-# 
-# Top level modules:
-# 	testbench
-# End time: 11:31:26 on Apr 19,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart -f
-# Loading work.testbench
-# Loading work.RS232_SINGLE_BYTE
-# Loading work.Low_Pass_Filter
-# Loading work.NEG_EDGE_DETECTOR
-run -all
-# ** Note: $stop    : C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb/testbench.sv(70)
-#    Time: 5470040 ns  Iteration: 0  Instance: /testbench
-# Break in Module testbench at C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb/testbench.sv line 70
-add wave -position end  sim:/testbench/rs232_1/rx_finish
 add wave -position end  sim:/testbench/rs232_1/rx_data
+add wave -position end  sim:/testbench/rs232_1/rx_finish
+add wave -position 13  sim:/testbench/rs232_1/shift_rx_data
 restart -f
 run -all
 # ** Note: $stop    : C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb/testbench.sv(70)
 #    Time: 5470040 ns  Iteration: 0  Instance: /testbench
 # Break in Module testbench at C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb/testbench.sv line 70
-add wave -position 12  sim:/testbench/rs232_1/shift_rx_data
+add wave -position 2  sim:/testbench/rs232_1/rx
+add wave -position 3  sim:/testbench/rs232_1/rx_filtered
 restart -f
 run -all
 # ** Note: $stop    : C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb/testbench.sv(70)
 #    Time: 5470040 ns  Iteration: 0  Instance: /testbench
 # Break in Module testbench at C:/Users/choug/reconfigurable-soc/LAB6/RS232_SINGLE_BYTE/0419/DE0_CV_rs232/simulation/tb/testbench.sv line 70
-# End time: 11:59:13 on Apr 19,2023, Elapsed time: 0:30:34
+# End time: 15:15:01 on Apr 21,2023, Elapsed time: 0:11:32
 # Errors: 0, Warnings: 2
