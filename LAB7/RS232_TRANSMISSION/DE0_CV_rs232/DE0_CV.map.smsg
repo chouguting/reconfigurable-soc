@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at RS232_PACKAGE.sv(33): object "check_sum" differs only in case from object "CHECK_SUM" in the same scope File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv Line: 33
+Info (10281): Verilog HDL Declaration information at RS232_PACKAGE.sv(34): object "tail" differs only in case from object "TAIL" in the same scope File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv Line: 34
+Info (10281): Verilog HDL Declaration information at DE0_CV.sv(24): object "RESET_N" differs only in case from object "reset_n" in the same scope File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv Line: 24

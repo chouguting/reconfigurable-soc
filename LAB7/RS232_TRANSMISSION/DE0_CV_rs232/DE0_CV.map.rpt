@@ -1,0 +1,402 @@
+Analysis & Elaboration report for DE0_CV
+Wed Apr 26 12:24:49 2023
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration IP Cores Summary
+  5. Source assignments for sld_signaltap:auto_signaltap_0
+  6. Parameter Settings for User Entity Instance: RS232_PACKAGE:rs232_1|RS232_SINGLE_BYTE:rs232_single_byte|Low_Pass_Filter:lpf1
+  7. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
+  8. Analysis & Elaboration Settings
+  9. Port Connectivity Checks: "RS232_PACKAGE:rs232_1"
+ 10. Signal Tap Logic Analyzer Settings
+ 11. Analysis & Elaboration Messages
+ 12. Analysis & Elaboration Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-----------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                              ;
++-------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Wed Apr 26 12:24:48 2023       ;
+; Quartus Prime Version         ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
+; Revision Name                 ; DE0_CV                                      ;
+; Top-level Entity Name         ; DE0_CV                                      ;
+; Family                        ; Cyclone V                                   ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
+; Total registers               ; N/A until Partition Merge                   ;
+; Total pins                    ; N/A until Partition Merge                   ;
+; Total virtual pins            ; N/A until Partition Merge                   ;
+; Total block memory bits       ; N/A until Partition Merge                   ;
+; Total PLLs                    ; N/A until Partition Merge                   ;
+; Total DLLs                    ; N/A until Partition Merge                   ;
++-------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration IP Cores Summary                                                                                                                                                                                                                                                                                                                       ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                                                                                                                                                                                                                                             ; IP Include File ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |DE0_CV|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric                                                                                 ;                 ;
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |DE0_CV|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab                                             ;                 ;
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |DE0_CV|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_presplit:presplit   ;                 ;
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |DE0_CV|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric ;                 ;
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |DE0_CV|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_splitter:splitter   ;                 ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+
+
++-------------------------------------------------------+
+; Source assignments for sld_signaltap:auto_signaltap_0 ;
++-----------------+-------+------+----------------------+
+; Assignment      ; Value ; From ; To                   ;
++-----------------+-------+------+----------------------+
+; MESSAGE_DISABLE ; 13410 ; -    ; -                    ;
++-----------------+-------+------+----------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RS232_PACKAGE:rs232_1|RS232_SINGLE_BYTE:rs232_single_byte|Low_Pass_Filter:lpf1 ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                               ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+; N              ; 14    ; Signed Integer                                                                                     ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0                                                                          ;
++-------------------------------------------------+---------------------------------------------------------------------------------------+----------------+
+; Parameter Name                                  ; Value                                                                                 ; Type           ;
++-------------------------------------------------+---------------------------------------------------------------------------------------+----------------+
+; lpm_type                                        ; sld_signaltap                                                                         ; String         ;
+; sld_node_info                                   ; 805334528                                                                             ; Untyped        ;
+; SLD_SECTION_ID                                  ; hdl_signaltap_0                                                                       ; String         ;
+; SLD_IP_VERSION                                  ; 6                                                                                     ; Signed Integer ;
+; SLD_IP_MINOR_VERSION                            ; 0                                                                                     ; Signed Integer ;
+; SLD_COMMON_IP_VERSION                           ; 0                                                                                     ; Signed Integer ;
+; sld_data_bits                                   ; 18                                                                                    ; Untyped        ;
+; sld_trigger_bits                                ; 18                                                                                    ; Untyped        ;
+; SLD_NODE_CRC_BITS                               ; 32                                                                                    ; Signed Integer ;
+; SLD_NODE_CRC_HIWORD                             ; 41394                                                                                 ; Signed Integer ;
+; SLD_NODE_CRC_LOWORD                             ; 50132                                                                                 ; Signed Integer ;
+; sld_incremental_routing                         ; 1                                                                                     ; Untyped        ;
+; sld_sample_depth                                ; 131072                                                                                ; Untyped        ;
+; sld_segment_size                                ; 131072                                                                                ; Untyped        ;
+; sld_ram_block_type                              ; AUTO                                                                                  ; Untyped        ;
+; sld_state_bits                                  ; 11                                                                                    ; Untyped        ;
+; sld_buffer_full_stop                            ; 1                                                                                     ; Untyped        ;
+; SLD_MEM_ADDRESS_BITS                            ; 7                                                                                     ; Signed Integer ;
+; SLD_DATA_BIT_CNTR_BITS                          ; 4                                                                                     ; Signed Integer ;
+; sld_trigger_level                               ; 1                                                                                     ; Untyped        ;
+; sld_trigger_in_enabled                          ; 0                                                                                     ; Untyped        ;
+; SLD_HPS_TRIGGER_IN_ENABLED                      ; 0                                                                                     ; Signed Integer ;
+; SLD_HPS_TRIGGER_OUT_ENABLED                     ; 0                                                                                     ; Signed Integer ;
+; SLD_HPS_EVENT_ENABLED                           ; 0                                                                                     ; Signed Integer ;
+; SLD_HPS_EVENT_ID                                ; 0                                                                                     ; Signed Integer ;
+; sld_advanced_trigger_entity                     ; basic,1,                                                                              ; Untyped        ;
+; sld_trigger_level_pipeline                      ; 1                                                                                     ; Untyped        ;
+; sld_trigger_pipeline                            ; 0                                                                                     ; Untyped        ;
+; sld_ram_pipeline                                ; 1                                                                                     ; Untyped        ;
+; sld_counter_pipeline                            ; 0                                                                                     ; Untyped        ;
+; sld_enable_advanced_trigger                     ; 0                                                                                     ; Untyped        ;
+; SLD_ADVANCED_TRIGGER_1                          ; NONE                                                                                  ; String         ;
+; SLD_ADVANCED_TRIGGER_2                          ; NONE                                                                                  ; String         ;
+; SLD_ADVANCED_TRIGGER_3                          ; NONE                                                                                  ; String         ;
+; SLD_ADVANCED_TRIGGER_4                          ; NONE                                                                                  ; String         ;
+; SLD_ADVANCED_TRIGGER_5                          ; NONE                                                                                  ; String         ;
+; SLD_ADVANCED_TRIGGER_6                          ; NONE                                                                                  ; String         ;
+; SLD_ADVANCED_TRIGGER_7                          ; NONE                                                                                  ; String         ;
+; SLD_ADVANCED_TRIGGER_8                          ; NONE                                                                                  ; String         ;
+; SLD_ADVANCED_TRIGGER_9                          ; NONE                                                                                  ; String         ;
+; SLD_ADVANCED_TRIGGER_10                         ; NONE                                                                                  ; String         ;
+; sld_inversion_mask_length                       ; 85                                                                                    ; Untyped        ;
+; sld_inversion_mask                              ; 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ; Untyped        ;
+; sld_power_up_trigger                            ; 0                                                                                     ; Untyped        ;
+; SLD_STATE_FLOW_MGR_ENTITY                       ; state_flow_mgr_entity.vhd                                                             ; String         ;
+; sld_state_flow_use_generated                    ; 0                                                                                     ; Untyped        ;
+; sld_current_resource_width                      ; 1                                                                                     ; Untyped        ;
+; sld_attribute_mem_mode                          ; OFF                                                                                   ; Untyped        ;
+; sld_storage_qualifier_bits                      ; 18                                                                                    ; Untyped        ;
+; SLD_STORAGE_QUALIFIER_GAP_RECORD                ; 0                                                                                     ; Signed Integer ;
+; SLD_STORAGE_QUALIFIER_MODE                      ; OFF                                                                                   ; String         ;
+; SLD_STORAGE_QUALIFIER_ENABLE_ADVANCED_CONDITION ; 0                                                                                     ; Signed Integer ;
+; sld_storage_qualifier_inversion_mask_length     ; 0                                                                                     ; Untyped        ;
+; SLD_STORAGE_QUALIFIER_ADVANCED_CONDITION_ENTITY ; basic                                                                                 ; String         ;
+; SLD_STORAGE_QUALIFIER_PIPELINE                  ; 0                                                                                     ; Signed Integer ;
+; SLD_CREATE_MONITOR_INTERFACE                    ; 0                                                                                     ; Signed Integer ;
+; SLD_USE_JTAG_SIGNAL_ADAPTER                     ; 1                                                                                     ; Signed Integer ;
++-------------------------------------------------+---------------------------------------------------------------------------------------+----------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration Settings                                                                                           ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CEBA4F23C7        ;                    ;
+; Top-level entity name                                                           ; DE0_CV             ; DE0_CV             ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "RS232_PACKAGE:rs232_1"                                                                                                     ;
++------------------------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port                   ; Type   ; Severity ; Details                                                                                                  ;
++------------------------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; r_LPF_threshold[13..5] ; Input  ; Info     ; Stuck at GND                                                                                             ;
+; r_LPF_threshold[1..0]  ; Input  ; Info     ; Stuck at GND                                                                                             ;
+; r_LPF_threshold[4]     ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; r_LPF_threshold[3]     ; Input  ; Info     ; Stuck at GND                                                                                             ;
+; r_LPF_threshold[2]     ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; buad_setting[1]        ; Input  ; Info     ; Stuck at VCC                                                                                             ;
+; buad_setting[0]        ; Input  ; Info     ; Stuck at GND                                                                                             ;
+; tx_end_flag            ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
+; data_debug             ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------------------------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Tap Logic Analyzer Settings                                                                                                                                                                                                                                      ;
++----------------+------------------+---------------------+------------------+--------------+----------+------------------------+----------------------+--------------------+-----------------------------+-----------------+------------------+--------------------------+
+; Instance Index ; Instance Name    ; Trigger Input Width ; Data Input Width ; Sample Depth ; Segments ; Storage Qualifier Type ; Trigger Flow Control ; Trigger Conditions ; Advanced Trigger Conditions ; Trigger In Used ; Trigger Out Used ; Power-Up Trigger Enabled ;
++----------------+------------------+---------------------+------------------+--------------+----------+------------------------+----------------------+--------------------+-----------------------------+-----------------+------------------+--------------------------+
+; 0              ; auto_signaltap_0 ; 18                  ; 18               ; 131072       ; 1        ; continuous             ; sequential           ; 1                  ; 0                           ; no              ; no               ; no                       ;
++----------------+------------------+---------------------+------------------+--------------+----------+------------------------+----------------------+--------------------+-----------------------------+-----------------+------------------+--------------------------+
+
+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Elaboration
+    Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+    Info: Processing started: Wed Apr 26 12:24:23 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DE0_CV -c DE0_CV --analysis_and_elaboration
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file design/rs232_tx_module.sv
+    Info (12023): Found entity 1: RS232_TX_MODULE File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_TX_MODULE.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file design/rs232_package.sv
+    Info (12023): Found entity 1: RS232_PACKAGE File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file design/rs232_single_byte.sv
+    Info (12023): Found entity 1: RS232_SINGLE_BYTE File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_SINGLE_BYTE.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file design/neg_edge_detector.sv
+    Info (12023): Found entity 1: NEG_EDGE_DETECTOR File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/NEG_EDGE_DETECTOR.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file design/low_pass_filter.sv
+    Info (12023): Found entity 1: Low_Pass_Filter File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/Low_Pass_Filter.sv Line: 45
+Info (12021): Found 1 design units, including 1 entities, in source file design/de0_cv.sv
+    Info (12023): Found entity 1: DE0_CV File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv Line: 6
+Warning (10236): Verilog HDL Implicit Net warning at RS232_SINGLE_BYTE.sv(28): created implicit net for "reset" File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_SINGLE_BYTE.sv Line: 28
+Warning (10236): Verilog HDL Implicit Net warning at DE0_CV.sv(72): created implicit net for "clk" File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv Line: 72
+Info (12127): Elaborating entity "DE0_CV" for the top level hierarchy
+Warning (10858): Verilog HDL warning at DE0_CV.sv(64): object data_debug used but never assigned File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv Line: 64
+Warning (10030): Net "data_debug" at DE0_CV.sv(64) has no driver or initial value, using a default initial value '0' File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv Line: 64
+Warning (10034): Output port "HEX0" at DE0_CV.sv(15) has no driver File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv Line: 15
+Warning (10034): Output port "HEX1" at DE0_CV.sv(16) has no driver File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv Line: 16
+Warning (10034): Output port "HEX2" at DE0_CV.sv(17) has no driver File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv Line: 17
+Warning (10034): Output port "HEX3" at DE0_CV.sv(18) has no driver File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv Line: 18
+Warning (10034): Output port "HEX4" at DE0_CV.sv(19) has no driver File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv Line: 19
+Warning (10034): Output port "HEX5" at DE0_CV.sv(20) has no driver File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv Line: 20
+Warning (10034): Output port "LEDR[9..8]" at DE0_CV.sv(27) has no driver File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv Line: 27
+Warning (10034): Output port "SD_CLK" at DE0_CV.sv(31) has no driver File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv Line: 31
+Info (12128): Elaborating entity "RS232_PACKAGE" for hierarchy "RS232_PACKAGE:rs232_1" File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv Line: 90
+Warning (10036): Verilog HDL or VHDL warning at RS232_PACKAGE.sv(28): object "package_ready" assigned a value but never read File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv Line: 28
+Warning (10036): Verilog HDL or VHDL warning at RS232_PACKAGE.sv(29): object "head" assigned a value but never read File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv Line: 29
+Warning (10036): Verilog HDL or VHDL warning at RS232_PACKAGE.sv(30): object "address" assigned a value but never read File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv Line: 30
+Warning (10036): Verilog HDL or VHDL warning at RS232_PACKAGE.sv(33): object "check_sum" assigned a value but never read File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv Line: 33
+Warning (10036): Verilog HDL or VHDL warning at RS232_PACKAGE.sv(34): object "tail" assigned a value but never read File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv Line: 34
+Warning (10858): Verilog HDL warning at RS232_PACKAGE.sv(50): object reg_file_address used but never assigned File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv Line: 50
+Warning (10036): Verilog HDL or VHDL warning at RS232_PACKAGE.sv(54): object "reg_file_data_to_read" assigned a value but never read File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv Line: 54
+Warning (10034): Output port "data_debug" at RS232_PACKAGE.sv(8) has no driver File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv Line: 8
+Info (12128): Elaborating entity "RS232_SINGLE_BYTE" for hierarchy "RS232_PACKAGE:rs232_1|RS232_SINGLE_BYTE:rs232_single_byte" File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv Line: 22
+Warning (10230): Verilog HDL assignment warning at RS232_SINGLE_BYTE.sv(76): truncated value with size 32 to match size of target (6) File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_SINGLE_BYTE.sv Line: 76
+Info (12128): Elaborating entity "Low_Pass_Filter" for hierarchy "RS232_PACKAGE:rs232_1|RS232_SINGLE_BYTE:rs232_single_byte|Low_Pass_Filter:lpf1" File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_SINGLE_BYTE.sv Line: 22
+Info (12128): Elaborating entity "NEG_EDGE_DETECTOR" for hierarchy "RS232_PACKAGE:rs232_1|RS232_SINGLE_BYTE:rs232_single_byte|NEG_EDGE_DETECTOR:ned1" File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_SINGLE_BYTE.sv Line: 31
+Info (12128): Elaborating entity "RS232_TX_MODULE" for hierarchy "RS232_PACKAGE:rs232_1|RS232_TX_MODULE:tx_1" File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv Line: 81
+Warning (10230): Verilog HDL assignment warning at RS232_TX_MODULE.sv(50): truncated value with size 32 to match size of target (6) File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_TX_MODULE.sv Line: 50
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_0o84.tdf
+    Info (12023): Found entity 1: altsyncram_0o84 File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/altsyncram_0o84.tdf Line: 32
+Info (12021): Found 1 design units, including 1 entities, in source file db/decode_tma.tdf
+    Info (12023): Found entity 1: decode_tma File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/decode_tma.tdf Line: 23
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_uib.tdf
+    Info (12023): Found entity 1: mux_uib File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/mux_uib.tdf Line: 23
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_glc.tdf
+    Info (12023): Found entity 1: mux_glc File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/mux_glc.tdf Line: 23
+Info (12021): Found 1 design units, including 1 entities, in source file db/decode_vnf.tdf
+    Info (12023): Found entity 1: decode_vnf File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/decode_vnf.tdf Line: 23
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_69i.tdf
+    Info (12023): Found entity 1: cntr_69i File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/cntr_69i.tdf Line: 28
+Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_d9c.tdf
+    Info (12023): Found entity 1: cmpr_d9c File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/cmpr_d9c.tdf Line: 23
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_85j.tdf
+    Info (12023): Found entity 1: cntr_85j File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/cntr_85j.tdf Line: 26
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_59i.tdf
+    Info (12023): Found entity 1: cntr_59i File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/cntr_59i.tdf Line: 28
+Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_e9c.tdf
+    Info (12023): Found entity 1: cmpr_e9c File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/cmpr_e9c.tdf Line: 23
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_kri.tdf
+    Info (12023): Found entity 1: cntr_kri File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/cntr_kri.tdf Line: 28
+Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_99c.tdf
+    Info (12023): Found entity 1: cmpr_99c File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/cmpr_99c.tdf Line: 23
+Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "auto_signaltap_0"
+Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
+Info (11172): 2023.04.26.12:24:39 Progress: Loading slde51157c7/alt_sld_fab_wrapper_hw.tcl
+Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
+Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
+Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
+Info (11172): Presplit: "alt_sld_fab" instantiated altera_super_splitter "presplit"
+Info (11172): Splitter: "alt_sld_fab" instantiated altera_sld_splitter "splitter"
+Info (11172): Sldfabric: "alt_sld_fab" instantiated altera_sld_jtag_hub "sldfabric"
+Info (11172): Ident: "alt_sld_fab" instantiated altera_connection_identification_hub "ident"
+Info (11172): Alt_sld_fab: Done "alt_sld_fab" with 6 modules, 6 files
+Info (11171): Finished IP generation for the debug fabric: alt_sld_fab.
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/slde51157c7/alt_sld_fab.v
+    Info (12023): Found entity 1: alt_sld_fab File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/ip/slde51157c7/alt_sld_fab.v Line: 9
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/slde51157c7/submodules/alt_sld_fab_alt_sld_fab.v
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/ip/slde51157c7/submodules/alt_sld_fab_alt_sld_fab.v Line: 9
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/slde51157c7/submodules/alt_sld_fab_alt_sld_fab_ident.sv
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_ident File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/ip/slde51157c7/submodules/alt_sld_fab_alt_sld_fab_ident.sv Line: 33
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/slde51157c7/submodules/alt_sld_fab_alt_sld_fab_presplit.sv
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_presplit File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/ip/slde51157c7/submodules/alt_sld_fab_alt_sld_fab_presplit.sv Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file db/ip/slde51157c7/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd
+    Info (12022): Found design unit 1: alt_sld_fab_alt_sld_fab_sldfabric-rtl File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/ip/slde51157c7/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 102
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_sldfabric File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/ip/slde51157c7/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 11
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/slde51157c7/submodules/alt_sld_fab_alt_sld_fab_splitter.sv
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/db/ip/slde51157c7/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (144001): Generated suppressed messages file C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/DE0_CV.map.smsg
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 24 warnings
+    Info: Peak virtual memory: 4893 megabytes
+    Info: Processing ended: Wed Apr 26 12:24:49 2023
+    Info: Elapsed time: 00:00:26
+    Info: Total CPU time (on all processors): 00:00:29
+
+
++--------------------------------------------+
+; Analysis & Elaboration Suppressed Messages ;
++--------------------------------------------+
+The suppressed messages can be found in C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/DE0_CV.map.smsg.
+
+
