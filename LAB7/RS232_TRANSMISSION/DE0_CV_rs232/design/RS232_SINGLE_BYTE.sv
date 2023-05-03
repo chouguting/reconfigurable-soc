@@ -108,15 +108,21 @@ module RS232_SINGLE_BYTE(
             end
             RECEIVING: begin
                 counter_count = 1;
-                if(bit_counter == 0 && counter == 1953) begin //1302+651=1953
+                //1302是baud rate 38400下一個bit的週期維持時間(clk數)(50M/38400=1302)
+                //651是baud rate 38400下一個bit的週期維持時間(clk數)的一半(1302/2=651)
+                //第一個bit是start bit，所以要等待先等1302 clk的時間
+                //第二個bit開始才是data bit，所以先等待651 clk的時間再取樣
+                //1302+651=1953，因此在1953 clk的時候取樣
+                //在一半的時間取樣，可以取得最佳的取樣點(防止邊緣效應)
+                if(bit_counter == 0 && counter == 1953) begin 
                     counter_reset = 1;
                     bit_counter_count = 1;
                     shift_rx_data = 1;
-                end else if(bit_counter > 0 && bit_counter <= 6 && counter == 1302) begin 
+                end else if(bit_counter > 0 && bit_counter <= 6 && counter == 1302) begin //每個bit的週期為1302 clk
                     counter_reset = 1;
                     bit_counter_count = 1;
                     shift_rx_data = 1;
-                end else if(bit_counter == 7 && counter == 1302) begin
+                end else if(bit_counter == 7 && counter == 1302) begin //共需要取樣8個data bit(一個byte)
                     counter_reset = 1;
                     shift_rx_data = 1;
                     next_state = FINISH;

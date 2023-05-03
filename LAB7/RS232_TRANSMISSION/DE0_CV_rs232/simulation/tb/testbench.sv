@@ -9,7 +9,7 @@ module testbench;
 	logic [13:0] r_LPF_threshold;
 	logic [7:0] send_data;
 	
-	logic [7:0]data_debug;
+	//logic [7:0]data_debug;
 	
 	integer	i;
 	integer	j;

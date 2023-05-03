@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/simulation/modelsim
 vDE0_CV
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1682483148
+Z2 !s110 1682845596
 !i10b 1
 !s100 :=7_Zc@fHzBkB<G:b8meF0
 Ign6dGKcB_0]^HjYgg_42g2
@@ -18,7 +18,7 @@ Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 DE0_CV_sv_unit
 S1
 R0
-w1682482422
+w1682483227
 8C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv
 FC:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv
 L0 6
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1682483148.000000
+Z5 !s108 1682845596.000000
 !s107 C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design|C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/DE0_CV.sv|
 !i113 1
@@ -62,7 +62,7 @@ R8
 n@low_@pass_@filter
 vNEG_EDGE_DETECTOR
 R1
-Z9 !s110 1682483147
+R2
 !i10b 1
 !s100 ?eX>SETEmiB:UBKUaUY1R0
 I=z:Fjndozoa0KgB>`TCjk1
@@ -78,7 +78,7 @@ R4
 r1
 !s85 0
 31
-Z10 !s108 1682483147.000000
+R5
 !s107 C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/NEG_EDGE_DETECTOR.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design|C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/NEG_EDGE_DETECTOR.sv|
 !i113 1
@@ -88,15 +88,15 @@ R8
 n@n@e@g_@e@d@g@e_@d@e@t@e@c@t@o@r
 vRS232_PACKAGE
 R1
-R9
+R2
 !i10b 1
-!s100 kggKR?=U:8]hIjWeoWd8m2
-Ii00L510G]ZFlDQn_I^zz^0
+!s100 5:KWG9VQl5Xge`FZR1nIl0
+I_FeY4>9?KUo9OU2JFIV1m2
 R3
 !s105 RS232_PACKAGE_sv_unit
 S1
 R0
-w1682482611
+w1682844920
 8C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv
 FC:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv
 L0 1
@@ -104,7 +104,7 @@ R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design|C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_PACKAGE.sv|
 !i113 1
@@ -114,15 +114,15 @@ R8
 n@r@s232_@p@a@c@k@a@g@e
 vRS232_SINGLE_BYTE
 R1
-R9
+Z9 !s110 1682845597
 !i10b 1
-!s100 5elRiK4SG;OR6EmFPj01E2
-Ic`nAX1A_Qa[^]0TTWP]BJ0
+!s100 _=@=X`MgYLK9zJEUQ@DmH0
+ID`Sj^V[]7mO=H:[Kh=`eo3
 R3
 !s105 RS232_SINGLE_BYTE_sv_unit
 S1
 R0
-w1682061543
+w1682845591
 8C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_SINGLE_BYTE.sv
 FC:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_SINGLE_BYTE.sv
 L0 1
@@ -130,7 +130,7 @@ R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_SINGLE_BYTE.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design|C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_SINGLE_BYTE.sv|
 !i113 1
@@ -142,13 +142,13 @@ vRS232_TX_MODULE
 R1
 R9
 !i10b 1
-!s100 o7[7nJD]8Af@<BDBAV5QR1
-IWFB<e>;k4GhJGBFgeb^F^2
+!s100 1i7fAJlEQJ<njAXbc1TI00
+IcHgTEMBHP?YUA@1KEkAjA3
 R3
 !s105 RS232_TX_MODULE_sv_unit
 S1
 R0
-w1682479095
+w1682845448
 8C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_TX_MODULE.sv
 FC:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_TX_MODULE.sv
 L0 1
@@ -156,7 +156,7 @@ R4
 r1
 !s85 0
 31
-R10
+Z10 !s108 1682845597.000000
 !s107 C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_TX_MODULE.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design|C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/design/RS232_TX_MODULE.sv|
 !i113 1
@@ -166,15 +166,15 @@ R8
 n@r@s232_@t@x_@m@o@d@u@l@e
 vtestbench
 R1
-R2
+R9
 !i10b 1
-!s100 Hl`mO]H_6Gb<R7=FRf3lm3
-I76mlXATZzY6YWLzg<jT<31
+!s100 [cjNTdJW@RWJY7[7[Ni@J3
+I3SEC6GH8b7O]2mo>7J>aR3
 R3
 !s105 testbench_sv_unit
 S1
 R0
-w1682483033
+w1682842230
 8C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/simulation/tb/testbench.sv
 FC:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/simulation/tb/testbench.sv
 L0 2
@@ -182,7 +182,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/simulation/tb/testbench.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/simulation/tb|C:/Users/choug/reconfigurable-soc/LAB7/RS232_TRANSMISSION/DE0_CV_rs232/simulation/tb/testbench.sv|
 !i113 1
