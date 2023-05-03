@@ -1,0 +1,159 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/simulation/modelsim
+vDE0_CV
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1683085566
+!i10b 1
+!s100 HJS5Q`>8Inoh^edbE72b12
+IB;_SVS:=R>V2a=C]o6I3J1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 DE0_CV_sv_unit
+S1
+R0
+w1683085483
+8C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/DE0_CV.sv
+FC:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/DE0_CV.sv
+L0 6
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1683085566.000000
+!s107 C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/DE0_CV.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/DE0_CV.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design
+Z8 tCvgOpt 0
+n@d@e0_@c@v
+vEDGE_DETECTOR
+R1
+R2
+!i10b 1
+!s100 95HHALOEbJW;XSJEJS]F53
+I^PocNj7;[@TS<Agzi`V7H1
+R3
+!s105 EDGE_DETECTOR_sv_unit
+S1
+R0
+w1683082640
+8C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/EDGE_DETECTOR.sv
+FC:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/EDGE_DETECTOR.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/EDGE_DETECTOR.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/EDGE_DETECTOR.sv|
+!i113 1
+R6
+R7
+R8
+n@e@d@g@e_@d@e@t@e@c@t@o@r
+vpll
+R2
+!i10b 1
+!s100 2D`hfYK8<lcAPj@Rn65>g1
+I:PG8FXVaOCm@LERd0gPHK1
+R3
+R0
+w1682520966
+8C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/pll_sim/pll.vo
+FC:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/pll_sim/pll.vo
+L0 32
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/pll_sim/pll.vo|
+!s90 -reportprogress|300|C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/pll_sim/pll.vo|
+!i113 1
+R8
+vSPI
+R1
+R2
+!i10b 1
+!s100 fiIbNmXLDiW@IFDclf[;91
+I064bj2PcD9<J@<Zn1inGe3
+R3
+!s105 SPI_sv_unit
+S1
+R0
+w1683084091
+8C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/SPI.sv
+FC:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/SPI.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/SPI.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/SPI.sv|
+!i113 1
+R6
+R7
+R8
+n@s@p@i
+vSPI_rx
+R1
+R2
+!i10b 1
+!s100 Wb6WUgmgXf]=;@B5KU;:Z1
+I4e850ZTLPkOWVL>>0dWDU0
+R3
+!s105 SPI_rx_sv_unit
+S1
+R0
+w1683084721
+8C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/SPI_rx.sv
+FC:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/SPI_rx.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/SPI_rx.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/design/SPI_rx.sv|
+!i113 1
+R6
+R7
+R8
+n@s@p@i_rx
+vtb_spi
+R1
+R2
+!i10b 1
+!s100 `]l1Aa;i]E`PYlghLD@3L2
+IFPJliDeDRJLUEC309eUaz3
+R3
+!s105 tb_spi_sv_unit
+S1
+R0
+w1683084282
+8C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/simulation/tb/tb_spi.sv
+FC:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/simulation/tb/tb_spi.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/simulation/tb/tb_spi.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/simulation/tb|C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/simulation/tb/tb_spi.sv|
+!i113 1
+R6
+!s92 -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB8/DE0_CV_SPI/simulation/tb
+R8
