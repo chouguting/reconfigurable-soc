@@ -1,0 +1,259 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/simulation/modelsim
+vDE0_CV
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1684896041
+!i10b 1
+!s100 HJS5Q`>8Inoh^edbE72b12
+IfVfc78JQ79Azz5Ile0Mcm3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 DE0_CV_sv_unit
+S1
+R0
+w1683085483
+8C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/DE0_CV.sv
+FC:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/DE0_CV.sv
+L0 6
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1684896041.000000
+!s107 C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/DE0_CV.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/DE0_CV.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design
+Z8 tCvgOpt 0
+n@d@e0_@c@v
+vEDGE_DETECTOR
+R1
+R2
+!i10b 1
+!s100 95HHALOEbJW;XSJEJS]F53
+IdL_aWXFOEIRLf1EMB]7S40
+R3
+!s105 EDGE_DETECTOR_sv_unit
+S1
+R0
+w1683082640
+8C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/EDGE_DETECTOR.sv
+FC:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/EDGE_DETECTOR.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/EDGE_DETECTOR.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/EDGE_DETECTOR.sv|
+!i113 1
+R6
+R7
+R8
+n@e@d@g@e_@d@e@t@e@c@t@o@r
+vfifo
+Z9 !s110 1684896042
+!i10b 1
+!s100 16cJNciN>be3i=^Zmz6Wb1
+I30;NgjfocIH[4MI_]VZW^2
+R3
+R0
+w1684289392
+8C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/fifo.v
+FC:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/fifo.v
+L0 40
+R4
+r1
+!s85 0
+31
+Z10 !s108 1684896042.000000
+!s107 C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/fifo.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design
+R8
+vPATTERN_GENERATOR
+R1
+R9
+!i10b 1
+!s100 GCd2mE]FCLY0aao4G6SWD2
+IZWIH^GUYm0]IdfcNGX[gi0
+R3
+!s105 PATTERN_GENERATOR_sv_unit
+S1
+R0
+w1684896037
+8C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/PATTERN_GENERATOR.sv
+FC:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/PATTERN_GENERATOR.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/PATTERN_GENERATOR.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/PATTERN_GENERATOR.sv|
+!i113 1
+R6
+R7
+R8
+n@p@a@t@t@e@r@n_@g@e@n@e@r@a@t@o@r
+vpll
+R9
+!i10b 1
+!s100 2D`hfYK8<lcAPj@Rn65>g1
+IXDnc58D8_dPhZC[zDT30<3
+R3
+R0
+w1682520966
+8C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/pll_sim/pll.vo
+FC:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/pll_sim/pll.vo
+L0 32
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/pll_sim/pll.vo|
+!s90 -reportprogress|300|C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/pll_sim/pll.vo|
+!i113 1
+R8
+vREGISTER_FILE
+R1
+R9
+!i10b 1
+!s100 gg0^nCJ2ISU?Vd0DWPo3X0
+ISfYQc8VZHjHl;zTe_c2B<0
+R3
+!s105 REGISTER_FILE_sv_unit
+S1
+R0
+w1684894296
+8C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/REGISTER_FILE.sv
+FC:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/REGISTER_FILE.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/REGISTER_FILE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/REGISTER_FILE.sv|
+!i113 1
+R6
+R7
+R8
+n@r@e@g@i@s@t@e@r_@f@i@l@e
+vSPI
+R1
+Z11 !s110 1684896043
+!i10b 1
+!s100 NBBMkn:S]0YIA5dfGGWkS2
+IBQKBQN_NAheXzD<bi5]G81
+R3
+!s105 SPI_sv_unit
+S1
+R0
+w1684895676
+8C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/SPI.sv
+FC:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/SPI.sv
+L0 4
+R4
+r1
+!s85 0
+31
+Z12 !s108 1684896043.000000
+!s107 C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/SPI.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/SPI.sv|
+!i113 1
+R6
+R7
+R8
+n@s@p@i
+vSPI_rx
+R1
+R11
+!i10b 1
+!s100 KzC?HLOnGflNTM=^EjHXb1
+IKo_<75Yga;HY>Zd0[6k`U0
+R3
+!s105 SPI_rx_sv_unit
+S1
+R0
+w1684291611
+8C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/SPI_rx.sv
+FC:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/SPI_rx.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/SPI_rx.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/SPI_rx.sv|
+!i113 1
+R6
+R7
+R8
+n@s@p@i_rx
+vSPI_tx
+R1
+R11
+!i10b 1
+!s100 R7mea>[7;`;I8361Y`moH2
+I<B24P?k[2GfEH=_;d30i03
+R3
+!s105 SPI_tx_sv_unit
+S1
+R0
+w1683687474
+8C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/SPI_tx.sv
+FC:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/SPI_tx.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/SPI_tx.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/design/SPI_tx.sv|
+!i113 1
+R6
+R7
+R8
+n@s@p@i_tx
+vtb_spi
+R1
+R11
+!i10b 1
+!s100 ^RH_f?gJN;>k3WoU;NzdP0
+Ig<OAcN6BEP6<lZO<S4f=e2
+R3
+!s105 tb_spi_sv_unit
+S1
+R0
+w1684894194
+8C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/simulation/tb/tb_spi.sv
+FC:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/simulation/tb/tb_spi.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/simulation/tb/tb_spi.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/simulation/tb|C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/simulation/tb/tb_spi.sv|
+!i113 1
+R6
+!s92 -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/FINAL/SPI_PATTERN_GENERATOR/DE0_CV_SPI/simulation/tb
+R8

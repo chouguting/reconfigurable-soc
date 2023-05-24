@@ -21,100 +21,100 @@
 # 
 # vlog "C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo"
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:36:13 on May 17,2023
+# Start time: 16:26:08 on May 20,2023
 # vlog -reportprogress 300 C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo 
 # -- Compiling module pll
 # 
 # Top level modules:
 # 	pll
-# End time: 10:36:13 on May 17,2023, Elapsed time: 0:00:00
+# End time: 16:26:08 on May 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design {C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:36:13 on May 17,2023
+# Start time: 16:26:08 on May 20,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v 
 # -- Compiling module fifo
 # 
 # Top level modules:
 # 	fifo
-# End time: 10:36:13 on May 17,2023, Elapsed time: 0:00:00
+# End time: 16:26:09 on May 20,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design {C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/REGISTER_FILE.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:36:14 on May 17,2023
+# Start time: 16:26:09 on May 20,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/REGISTER_FILE.sv 
 # -- Compiling module REGISTER_FILE
 # 
 # Top level modules:
 # 	REGISTER_FILE
-# End time: 10:36:14 on May 17,2023, Elapsed time: 0:00:00
+# End time: 16:26:09 on May 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design {C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:36:14 on May 17,2023
+# Start time: 16:26:09 on May 20,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv 
 # -- Compiling module SPI_tx
 # 
 # Top level modules:
 # 	SPI_tx
-# End time: 10:36:14 on May 17,2023, Elapsed time: 0:00:00
+# End time: 16:26:09 on May 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design {C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:36:14 on May 17,2023
+# Start time: 16:26:09 on May 20,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv 
 # -- Compiling module SPI_rx
 # 
 # Top level modules:
 # 	SPI_rx
-# End time: 10:36:14 on May 17,2023, Elapsed time: 0:00:00
+# End time: 16:26:09 on May 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design {C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:36:14 on May 17,2023
+# Start time: 16:26:09 on May 20,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv 
 # -- Compiling module EDGE_DETECTOR
 # 
 # Top level modules:
 # 	EDGE_DETECTOR
-# End time: 10:36:14 on May 17,2023, Elapsed time: 0:00:00
+# End time: 16:26:09 on May 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design {C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:36:14 on May 17,2023
+# Start time: 16:26:09 on May 20,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv 
 # -- Compiling module SPI
 # 
 # Top level modules:
 # 	SPI
-# End time: 10:36:14 on May 17,2023, Elapsed time: 0:00:00
+# End time: 16:26:09 on May 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design {C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:36:14 on May 17,2023
+# Start time: 16:26:09 on May 20,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv 
 # -- Compiling module DE0_CV
 # 
 # Top level modules:
 # 	DE0_CV
-# End time: 10:36:14 on May 17,2023, Elapsed time: 0:00:00
+# End time: 16:26:09 on May 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb {C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:36:14 on May 17,2023
+# Start time: 16:26:09 on May 20,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv 
 # -- Compiling module tb_spi
 # 
 # Top level modules:
 # 	tb_spi
-# End time: 10:36:14 on May 17,2023, Elapsed time: 0:00:00
+# End time: 16:26:09 on May 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_spi
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_spi 
-# Start time: 10:36:14 on May 17,2023
+# Start time: 16:26:10 on May 20,2023
 # Loading sv_std.std
 # Loading work.tb_spi
 # Loading work.DE0_CV
@@ -156,28 +156,24 @@
 # ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
 # ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
 # ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(63): [TFMPC] - Too few port connections. Expected 12, found 10.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/rx_moule File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(63): [TFMPC] - Missing connection for port 'fifo_rd_req'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(63): [TFMPC] - Missing connection for port 'fifo_wr_req'.
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(26): [TFMPC] - Too few port connections. Expected 5, found 4.
+# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(27): [TFMPC] - Too few port connections. Expected 5, found 4.
 #    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/rx_moule/ssn_neg_edge_detector File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(26): [TFMPC] - Missing connection for port 'pos_edge_detected'.
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(33): [TFMPC] - Too few port connections. Expected 5, found 4.
+# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(27): [TFMPC] - Missing connection for port 'pos_edge_detected'.
+# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(34): [TFMPC] - Too few port connections. Expected 5, found 4.
 #    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/rx_moule/sclk_pos_edge_detector File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(33): [TFMPC] - Missing connection for port 'neg_edge_detected'.
+# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(34): [TFMPC] - Missing connection for port 'neg_edge_detected'.
 # ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv(26): [TFMPC] - Too few port connections. Expected 5, found 4.
 #    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/tx_module/sclk_neg_edge_detector File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
 # ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv(26): [TFMPC] - Missing connection for port 'pos_edge_detected'.
-# ** Warning: (vsim-3015) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(97): [PCDPC] - Port size (11) does not match connection size (1) for port 'usedw'. The port definition is at: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v(50).
+# ** Warning: (vsim-3015) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(104): [PCDPC] - Port size (11) does not match connection size (1) for port 'usedw'. The port definition is at: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v(50).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/fifo_inst File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: user  Hostname: MARCEL-PC  ProcessID: 3100
-#           Attempting to use alternate WLF file "./wlftqs8jjv".
+#           Attempting to use alternate WLF file "./wlftam47j2".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftqs8jjv
+#           Using alternate file: ./wlftam47j2
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
@@ -198,11 +194,11 @@
 # ** Note: $stop    : C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv(182)
 #    Time: 43 us  Iteration: 0  Instance: /tb_spi
 # Break in Module tb_spi at C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv line 182
-do sim.do 
-# End time: 10:36:34 on May 17,2023, Elapsed time: 0:00:20
-# Errors: 0, Warnings: 34
+do sim.do
+# End time: 16:26:27 on May 20,2023, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 31
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_spi 
-# Start time: 10:36:34 on May 17,2023
+# Start time: 16:26:27 on May 20,2023
 # Loading sv_std.std
 # Loading work.tb_spi
 # Loading work.DE0_CV
@@ -244,27 +240,23 @@ do sim.do
 # ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
 # ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
 # ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(63): [TFMPC] - Too few port connections. Expected 12, found 10.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/rx_moule File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(63): [TFMPC] - Missing connection for port 'fifo_rd_req'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(63): [TFMPC] - Missing connection for port 'fifo_wr_req'.
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(26): [TFMPC] - Too few port connections. Expected 5, found 4.
+# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(27): [TFMPC] - Too few port connections. Expected 5, found 4.
 #    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/rx_moule/ssn_neg_edge_detector File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(26): [TFMPC] - Missing connection for port 'pos_edge_detected'.
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(33): [TFMPC] - Too few port connections. Expected 5, found 4.
+# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(27): [TFMPC] - Missing connection for port 'pos_edge_detected'.
+# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(34): [TFMPC] - Too few port connections. Expected 5, found 4.
 #    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/rx_moule/sclk_pos_edge_detector File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(33): [TFMPC] - Missing connection for port 'neg_edge_detected'.
+# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(34): [TFMPC] - Missing connection for port 'neg_edge_detected'.
 # ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv(26): [TFMPC] - Too few port connections. Expected 5, found 4.
 #    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/tx_module/sclk_neg_edge_detector File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
 # ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv(26): [TFMPC] - Missing connection for port 'pos_edge_detected'.
-# ** Warning: (vsim-3015) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(97): [PCDPC] - Port size (11) does not match connection size (1) for port 'usedw'. The port definition is at: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v(50).
+# ** Warning: (vsim-3015) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(104): [PCDPC] - Port size (11) does not match connection size (1) for port 'usedw'. The port definition is at: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v(50).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/fifo_inst File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v
 # .main_pane.structure.interior.cs.body.struct .main_pane.wave.interior.cs.body.pw.wf .main_pane.objects.interior.cs.body.tree
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: user  Hostname: MARCEL-PC  ProcessID: 3100
-#           Attempting to use alternate WLF file "./wlftqkr8f3".
+#           Attempting to use alternate WLF file "./wlftsxba8w".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftqkr8f3
+#           Using alternate file: ./wlftsxba8w
 # ** Error: (vish-4014) No objects found matching '/tb_spi/data_debug'.
 # Executing ONERROR command at macro ./wave.do line 10
 # ** Error: (vish-4014) No objects found matching '/tb_spi/DE0_CV1/SPI/write_data'.
@@ -308,324 +300,22 @@ do sim.do
 # Break in Module tb_spi at C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv line 182
 add wave -position 18  sim:/tb_spi/DE0_CV1/SPI/rx_moule/address
 add wave -position 19  sim:/tb_spi/DE0_CV1/SPI/rx_moule/data
-add wave -position 20  sim:/tb_spi/DE0_CV1/SPI/rx_moule/fifo_rd_req
-add wave -position 21  sim:/tb_spi/DE0_CV1/SPI/rx_moule/fifo_wr_req
-add wave -position 18  sim:/tb_spi/DE0_CV1/SPI/rx_moule/clk
-add wave -position 21  sim:/tb_spi/DE0_CV1/SPI/rx_moule/set_location_to_fifo
-add wave -position 21  sim:/tb_spi/DE0_CV1/SPI/rx_moule/fifo_rd_req_temp
-add wave -position 22  sim:/tb_spi/DE0_CV1/SPI/rx_moule/fifo_wr_req_temp
-add wave -position 19  sim:/tb_spi/DE0_CV1/SPI/rx_moule/access_location
+add wave -position 20  sim:/tb_spi/DE0_CV1/SPI/rx_moule/read_en
+add wave -position 21  sim:/tb_spi/DE0_CV1/SPI/rx_moule/write_en
+add wave -position 22  sim:/tb_spi/DE0_CV1/SPI/rx_moule/fifo_rd_req
+add wave -position 23  sim:/tb_spi/DE0_CV1/SPI/rx_moule/fifo_wr_req
+add wave -position 24  sim:/tb_spi/DE0_CV1/SPI/rx_moule/tx_data_source
+add wave -position 20  sim:/tb_spi/DE0_CV1/SPI/rx_moule/access_location
+add wave -position 6  sim:/tb_spi/DE0_CV1/sclk
 add wave -position end  sim:/tb_spi/DE0_CV1/SPI/tx_module/data_to_send
-add wave -position 26  sim:/tb_spi/DE0_CV1/SPI/rx_moule/current_state
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:41:01 on May 17,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv 
-# -- Compiling module DE0_CV
-# 
-# Top level modules:
-# 	DE0_CV
-# End time: 10:41:01 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:41:01 on May 17,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv 
-# -- Compiling module EDGE_DETECTOR
-# 
-# Top level modules:
-# 	EDGE_DETECTOR
-# End time: 10:41:01 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -vlog01compat -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:41:01 on May 17,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v 
-# -- Compiling module fifo
-# 
-# Top level modules:
-# 	fifo
-# End time: 10:41:02 on May 17,2023, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vlog C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:41:02 on May 17,2023
-# vlog -reportprogress 300 C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo 
-# -- Compiling module pll
-# 
-# Top level modules:
-# 	pll
-# End time: 10:41:02 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/REGISTER_FILE.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:41:02 on May 17,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/REGISTER_FILE.sv 
-# -- Compiling module REGISTER_FILE
-# 
-# Top level modules:
-# 	REGISTER_FILE
-# End time: 10:41:02 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:41:02 on May 17,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv 
-# -- Compiling module SPI
-# 
-# Top level modules:
-# 	SPI
-# End time: 10:41:02 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:41:02 on May 17,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv 
-# -- Compiling module SPI_rx
-# 
-# Top level modules:
-# 	SPI_rx
-# End time: 10:41:02 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:41:02 on May 17,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv 
-# -- Compiling module SPI_tx
-# 
-# Top level modules:
-# 	SPI_tx
-# End time: 10:41:02 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:41:03 on May 17,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv 
-# -- Compiling module tb_spi
-# 
-# Top level modules:
-# 	tb_spi
-# End time: 10:41:03 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart -f
-# Loading work.tb_spi
-# Loading work.DE0_CV
-# Loading work.pll
-# Loading work.SPI
-# Loading work.SPI_rx
-# Loading work.EDGE_DETECTOR
-# Loading work.SPI_tx
-# Loading work.REGISTER_FILE
-# Loading work.fifo
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Too few port connections. Expected 26, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/the_pll/pll_altera_pll_altera_pll_i_639 File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'updn'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cclk'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phout'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'loaden'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(63): [TFMPC] - Too few port connections. Expected 12, found 10.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/rx_moule File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(63): [TFMPC] - Missing connection for port 'fifo_rd_req'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(63): [TFMPC] - Missing connection for port 'fifo_wr_req'.
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(26): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/rx_moule/ssn_neg_edge_detector File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(26): [TFMPC] - Missing connection for port 'pos_edge_detected'.
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(33): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/rx_moule/sclk_pos_edge_detector File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(33): [TFMPC] - Missing connection for port 'neg_edge_detected'.
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv(26): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/tx_module/sclk_neg_edge_detector File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv(26): [TFMPC] - Missing connection for port 'pos_edge_detected'.
-# ** Warning: (vsim-3015) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(97): [PCDPC] - Port size (11) does not match connection size (1) for port 'usedw'. The port definition is at: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v(50).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/fifo_inst File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v
-run -all
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (tb_spi.DE0_CV1.the_pll.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = tb_spi.DE0_CV1.the_pll.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-# ** Note: $stop    : C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv(182)
-#    Time: 43 us  Iteration: 0  Instance: /tb_spi
-# Break in Module tb_spi at C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv line 182
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:46:56 on May 17,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv 
-# -- Compiling module DE0_CV
-# 
-# Top level modules:
-# 	DE0_CV
-# End time: 10:46:56 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:46:57 on May 17,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv 
-# -- Compiling module EDGE_DETECTOR
-# 
-# Top level modules:
-# 	EDGE_DETECTOR
-# End time: 10:46:57 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -vlog01compat -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:46:57 on May 17,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v 
-# -- Compiling module fifo
-# 
-# Top level modules:
-# 	fifo
-# End time: 10:46:57 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:46:57 on May 17,2023
-# vlog -reportprogress 300 C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo 
-# -- Compiling module pll
-# 
-# Top level modules:
-# 	pll
-# End time: 10:46:57 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/REGISTER_FILE.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:46:57 on May 17,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/REGISTER_FILE.sv 
-# -- Compiling module REGISTER_FILE
-# 
-# Top level modules:
-# 	REGISTER_FILE
-# End time: 10:46:57 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:46:57 on May 17,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv 
-# -- Compiling module SPI
-# 
-# Top level modules:
-# 	SPI
-# End time: 10:46:57 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:46:57 on May 17,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv 
-# -- Compiling module SPI_rx
-# 
-# Top level modules:
-# 	SPI_rx
-# End time: 10:46:58 on May 17,2023, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:46:58 on May 17,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv 
-# -- Compiling module SPI_tx
-# 
-# Top level modules:
-# 	SPI_tx
-# End time: 10:46:58 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:46:58 on May 17,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb" C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv 
-# -- Compiling module tb_spi
-# 
-# Top level modules:
-# 	tb_spi
-# End time: 10:46:58 on May 17,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart -f
-# Loading work.tb_spi
-# Loading work.DE0_CV
-# Loading work.pll
-# Loading work.SPI
-# Loading work.SPI_rx
-# Loading work.EDGE_DETECTOR
-# Loading work.SPI_tx
-# Loading work.REGISTER_FILE
-# Loading work.fifo
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Too few port connections. Expected 26, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/the_pll/pll_altera_pll_altera_pll_i_639 File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_lnsim.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'updn'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cclk'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phout'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'loaden'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(27): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/rx_moule/ssn_neg_edge_detector File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(27): [TFMPC] - Missing connection for port 'pos_edge_detected'.
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(34): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/rx_moule/sclk_pos_edge_detector File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv(34): [TFMPC] - Missing connection for port 'neg_edge_detected'.
-# ** Warning: (vsim-3017) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv(26): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/tx_module/sclk_neg_edge_detector File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
-# ** Warning: (vsim-3722) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv(26): [TFMPC] - Missing connection for port 'pos_edge_detected'.
-# ** Warning: (vsim-3015) C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv(104): [PCDPC] - Port size (11) does not match connection size (1) for port 'usedw'. The port definition is at: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v(50).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_spi/DE0_CV1/SPI/fifo_inst File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v
-run -all
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (tb_spi.DE0_CV1.the_pll.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = tb_spi.DE0_CV1.the_pll.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 MHz
-# Info: output_clock_frequency = 100 MHZ
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 5000.000000
-# Info: output_clock_low_period = 5000.000000
-# ** Note: $stop    : C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv(182)
-#    Time: 43 us  Iteration: 0  Instance: /tb_spi
-# Break in Module tb_spi at C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv line 182
-add wave -position 28  sim:/tb_spi/DE0_CV1/SPI/rx_moule/tx_data_source
-add wave -position 29  sim:/tb_spi/DE0_CV1/SPI/fifo_inst/usedw
-add wave -position 29  sim:/tb_spi/DE0_CV1/SPI/tx_data_source
-add wave -position 28  sim:/tb_spi/DE0_CV1/SPI/tx_req
-add wave -position 29  sim:/tb_spi/DE0_CV1/SPI/tx_module/start_tx
-add wave -position 30  sim:/tb_spi/DE0_CV1/SPI/tx_module/send_trigger
-# End time: 10:54:35 on May 17,2023, Elapsed time: 0:18:01
-# Errors: 39, Warnings: 95
+add wave -position end  sim:/tb_spi/DE0_CV1/SPI/tx_module/shift_register
+add wave -position end  sim:/tb_spi/DE0_CV1/SPI/tx_module/reset_shift_register
+add wave -position 24  sim:/tb_spi/DE0_CV1/SPI/tx_module/load_shift_register
+add wave -position 23  sim:/tb_spi/DE0_CV1/SPI/tx_module/current_state
+add wave -position end  sim:/tb_spi/DE0_CV1/SPI/tx_module/miso
+add wave -position 27  sim:/tb_spi/DE0_CV1/SPI/tx_module/shift_shift_register
+add wave -position 28  sim:/tb_spi/DE0_CV1/SPI/tx_module/send_trigger
+add wave -position 16  sim:/tb_spi/DE0_CV1/SPI/rx_moule/is_write
+add wave -position 20  sim:/tb_spi/DE0_CV1/SPI/rx_moule/tx_req
+# End time: 13:59:24 on May 21,2023, Elapsed time: 21:32:57
+# Errors: 39, Warnings: 31

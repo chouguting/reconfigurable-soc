@@ -16,6 +16,7 @@ vmap work rtl_work
 
 vlog "C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo"
 
+vlog -vlog01compat -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design {C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v}
 vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design {C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/REGISTER_FILE.sv}
 vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design {C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv}
 vlog -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design {C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv}

@@ -10,11 +10,11 @@ cModel Technology
 Z0 dC:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/modelsim
 vDE0_CV
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-!s110 1684291616
+Z2 !s110 1684571169
 !i10b 1
 !s100 HJS5Q`>8Inoh^edbE72b12
 IB13jSIiHo[0oT;9HFn;6R1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 DE0_CV_sv_unit
 S1
 R0
@@ -22,25 +22,25 @@ w1683085483
 8C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv
 FC:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv
 L0 6
-Z3 OV;L;10.5b;63
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1684291616.000000
+Z5 !s108 1684571169.000000
 !s107 C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv|
 !i113 1
-Z4 o-sv -work work
-Z5 !s92 -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design
-Z6 tCvgOpt 0
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design
+Z8 tCvgOpt 0
 n@d@e0_@c@v
 vEDGE_DETECTOR
 R1
-Z7 !s110 1684291617
+R2
 !i10b 1
 !s100 95HHALOEbJW;XSJEJS]F53
 IPS4^ao<Dh>VXT=fjkPI7l0
-R2
+R3
 !s105 EDGE_DETECTOR_sv_unit
 S1
 R0
@@ -48,67 +48,67 @@ w1683082640
 8C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
 FC:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-Z8 !s108 1684291617.000000
+R5
 !s107 C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/EDGE_DETECTOR.sv|
 !i113 1
-R4
-R5
 R6
+R7
+R8
 n@e@d@g@e_@d@e@t@e@c@t@o@r
 vfifo
-R7
+R2
 !i10b 1
 !s100 16cJNciN>be3i=^Zmz6Wb1
 I_6a1g62JNG9A`O[3<0PUS3
-R2
+R3
 R0
 w1684289392
 8C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v
 FC:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v
 L0 40
-R3
+R4
 r1
 !s85 0
 31
-R8
+Z9 !s108 1684571168.000000
 !s107 C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v|
 !i113 1
 o-vlog01compat -work work
 !s92 -vlog01compat -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design
-R6
+R8
 vpll
-R7
+!s110 1684571168
 !i10b 1
 !s100 2D`hfYK8<lcAPj@Rn65>g1
 IBT;Z`Klzhj`Y6dMM2`EmU1
-R2
+R3
 R0
 w1682520966
 8C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo
 FC:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo
 L0 32
-R3
+R4
 r1
 !s85 0
 31
-R8
+R9
 !s107 C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo|
 !s90 -reportprogress|300|C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/pll_sim/pll.vo|
 !i113 1
-R6
+R8
 vREGISTER_FILE
 R1
-R7
+R2
 !i10b 1
 !s100 c8C1DY@RiiGlP]k`DN^Hh2
 I5ie7[nGoX[GF`aDBfg=Mf3
-R2
+R3
 !s105 REGISTER_FILE_sv_unit
 S1
 R0
@@ -116,25 +116,25 @@ w1683688456
 8C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/REGISTER_FILE.sv
 FC:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/REGISTER_FILE.sv
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-R8
+R5
 !s107 C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/REGISTER_FILE.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/REGISTER_FILE.sv|
 !i113 1
-R4
-R5
 R6
+R7
+R8
 n@r@e@g@i@s@t@e@r_@f@i@l@e
 vSPI
 R1
-R7
+R2
 !i10b 1
 !s100 G5bZ^SVT5^Gl<RJzRkK2i2
 IcZVWT4cI]GLfNh1FJfVD61
-R2
+R3
 !s105 SPI_sv_unit
 S1
 R0
@@ -142,25 +142,25 @@ w1684291488
 8C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv
 FC:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv
 L0 4
-R3
+R4
 r1
 !s85 0
 31
-R8
+R5
 !s107 C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv|
 !i113 1
-R4
-R5
 R6
+R7
+R8
 n@s@p@i
 vSPI_rx
 R1
-Z9 !s110 1684291618
+R2
 !i10b 1
 !s100 KzC?HLOnGflNTM=^EjHXb1
 Ig_b5EoRUU15Sd:[039a^12
-R2
+R3
 !s105 SPI_rx_sv_unit
 S1
 R0
@@ -168,25 +168,25 @@ w1684291611
 8C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv
 FC:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-R8
+R5
 !s107 C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv|
 !i113 1
-R4
-R5
 R6
+R7
+R8
 n@s@p@i_rx
 vSPI_tx
 R1
-R9
+R2
 !i10b 1
 !s100 R7mea>[7;`;I8361Y`moH2
 ITK5nggk?L4LBNm9QjeleX0
-R2
+R3
 !s105 SPI_tx_sv_unit
 S1
 R0
@@ -194,25 +194,25 @@ w1683687474
 8C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv
 FC:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv
 L0 1
-R3
+R4
 r1
 !s85 0
 31
-Z10 !s108 1684291618.000000
+R5
 !s107 C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design|C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_tx.sv|
 !i113 1
-R4
-R5
 R6
+R7
+R8
 n@s@p@i_tx
 vtb_spi
 R1
-R9
+R2
 !i10b 1
 !s100 <8GC2bb=6oz=Gi7EbBndB3
 I03B6=z<mMfK;f_fL@eNPh2
-R2
+R3
 !s105 tb_spi_sv_unit
 S1
 R0
@@ -220,14 +220,14 @@ w1684289494
 8C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv
 FC:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv
 L0 3
-R3
+R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb|C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb/tb_spi.sv|
 !i113 1
-R4
-!s92 -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb
 R6
+!s92 -sv -work work +incdir+C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/simulation/tb
+R8

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2023.05.17.10:35:42"
+ date="2023.05.20.16:25:37"
  outputDirectory="C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/ip/slde51157c7/">
  <perimeter>
   <parameter

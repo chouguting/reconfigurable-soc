@@ -389,6 +389,7 @@ write_en <= write_en.DB_MAX_OUTPUT_PORT_TYPE
 tx_req <= tx_req.DB_MAX_OUTPUT_PORT_TYPE
 fifo_rd_req <= fifo_rd_req~reg0.DB_MAX_OUTPUT_PORT_TYPE
 fifo_wr_req <= fifo_wr_req~reg0.DB_MAX_OUTPUT_PORT_TYPE
+tx_data_source <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
 mosi => shift_register.DATAB
 sclk => sclk.IN1
 ssn => ssn.IN1

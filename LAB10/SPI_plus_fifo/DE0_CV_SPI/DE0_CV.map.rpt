@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DE0_CV
-Wed May 17 10:35:48 2023
+Sat May 20 16:25:44 2023
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -33,13 +33,12 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
  25. Port Connectivity Checks: "SPI:SPI|SPI_tx:tx_module|EDGE_DETECTOR:sclk_neg_edge_detector"
  26. Port Connectivity Checks: "SPI:SPI|SPI_rx:rx_moule|EDGE_DETECTOR:sclk_pos_edge_detector"
  27. Port Connectivity Checks: "SPI:SPI|SPI_rx:rx_moule|EDGE_DETECTOR:ssn_neg_edge_detector"
- 28. Port Connectivity Checks: "SPI:SPI|SPI_rx:rx_moule"
- 29. Port Connectivity Checks: "SPI:SPI"
- 30. Signal Tap Logic Analyzer Settings
- 31. Post-Synthesis Netlist Statistics for Top Partition
- 32. Elapsed Time Per Partition
- 33. Connections to In-System Debugging Instance "auto_signaltap_0"
- 34. Analysis & Synthesis Messages
+ 28. Port Connectivity Checks: "SPI:SPI"
+ 29. Signal Tap Logic Analyzer Settings
+ 30. Post-Synthesis Netlist Statistics for Top Partition
+ 31. Elapsed Time Per Partition
+ 32. Connections to In-System Debugging Instance "auto_signaltap_0"
+ 33. Analysis & Synthesis Messages
 
 
 
@@ -66,16 +65,16 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed May 17 10:35:48 2023       ;
+; Analysis & Synthesis Status     ; Successful - Sat May 20 16:25:44 2023       ;
 ; Quartus Prime Version           ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                   ; DE0_CV                                      ;
 ; Top-level Entity Name           ; DE0_CV                                      ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 726                                         ;
+; Total registers                 ; 763                                         ;
 ; Total pins                      ; 149                                         ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 397,312                                     ;
+; Total block memory bits         ; 430,080                                     ;
 ; Total DSP Blocks                ; 0                                           ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
@@ -288,20 +287,20 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+--------------------------+
 ; Resource                                    ; Usage                    ;
 +---------------------------------------------+--------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 420                      ;
+; Estimate of Logic utilization (ALMs needed) ; 444                      ;
 ;                                             ;                          ;
-; Combinational ALUT usage for logic          ; 425                      ;
+; Combinational ALUT usage for logic          ; 496                      ;
 ;     -- 7 input functions                    ; 2                        ;
-;     -- 6 input functions                    ; 81                       ;
-;     -- 5 input functions                    ; 77                       ;
-;     -- 4 input functions                    ; 47                       ;
-;     -- <=3 input functions                  ; 218                      ;
+;     -- 6 input functions                    ; 105                      ;
+;     -- 5 input functions                    ; 78                       ;
+;     -- 4 input functions                    ; 48                       ;
+;     -- <=3 input functions                  ; 263                      ;
 ;                                             ;                          ;
-; Dedicated logic registers                   ; 726                      ;
+; Dedicated logic registers                   ; 763                      ;
 ;                                             ;                          ;
 ; I/O pins                                    ; 149                      ;
 ; Total MLAB memory bits                      ; 0                        ;
-; Total block memory bits                     ; 397312                   ;
+; Total block memory bits                     ; 430080                   ;
 ;                                             ;                          ;
 ; Total DSP Blocks                            ; 0                        ;
 ;                                             ;                          ;
@@ -310,8 +309,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;                          ;
 ; Maximum fan-out node                        ; altera_internal_jtag~TDO ;
 ; Maximum fan-out                             ; 417                      ;
-; Total fan-out                               ; 6149                     ;
-; Average fan-out                             ; 3.84                     ;
+; Total fan-out                               ; 6940                     ;
+; Average fan-out                             ; 4.02                     ;
 +---------------------------------------------+--------------------------+
 
 
@@ -320,16 +319,25 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                                              ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                ; Entity Name                       ; Library Name ;
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
-; |DE0_CV                                                                                                                                 ; 425 (2)             ; 726 (0)                   ; 397312            ; 0          ; 149  ; 0            ; |DE0_CV                                                                                                                                                                                                                                                                                                                                            ; DE0_CV                            ; work         ;
-;    |SPI:SPI|                                                                                                                            ; 54 (0)              ; 86 (0)                    ; 4096              ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI                                                                                                                                                                                                                                                                                                                                    ; SPI                               ; work         ;
+; |DE0_CV                                                                                                                                 ; 496 (1)             ; 763 (0)                   ; 430080            ; 0          ; 149  ; 0            ; |DE0_CV                                                                                                                                                                                                                                                                                                                                            ; DE0_CV                            ; work         ;
+;    |SPI:SPI|                                                                                                                            ; 126 (0)             ; 123 (0)                   ; 36864             ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI                                                                                                                                                                                                                                                                                                                                    ; SPI                               ; work         ;
 ;       |REGISTER_FILE:register_file_module|                                                                                              ; 0 (0)               ; 0 (0)                     ; 4096              ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|REGISTER_FILE:register_file_module                                                                                                                                                                                                                                                                                                 ; REGISTER_FILE                     ; work         ;
 ;          |altsyncram:register_file_rtl_0|                                                                                               ; 0 (0)               ; 0 (0)                     ; 4096              ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|REGISTER_FILE:register_file_module|altsyncram:register_file_rtl_0                                                                                                                                                                                                                                                                  ; altsyncram                        ; work         ;
 ;             |altsyncram_k3q1:auto_generated|                                                                                            ; 0 (0)               ; 0 (0)                     ; 4096              ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|REGISTER_FILE:register_file_module|altsyncram:register_file_rtl_0|altsyncram_k3q1:auto_generated                                                                                                                                                                                                                                   ; altsyncram_k3q1                   ; work         ;
-;       |SPI_rx:rx_moule|                                                                                                                 ; 32 (28)             ; 59 (53)                   ; 0                 ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|SPI_rx:rx_moule                                                                                                                                                                                                                                                                                                                    ; SPI_rx                            ; work         ;
+;       |SPI_rx:rx_moule|                                                                                                                 ; 34 (30)             ; 61 (55)                   ; 0                 ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|SPI_rx:rx_moule                                                                                                                                                                                                                                                                                                                    ; SPI_rx                            ; work         ;
 ;          |EDGE_DETECTOR:sclk_pos_edge_detector|                                                                                         ; 2 (2)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|SPI_rx:rx_moule|EDGE_DETECTOR:sclk_pos_edge_detector                                                                                                                                                                                                                                                                               ; EDGE_DETECTOR                     ; work         ;
 ;          |EDGE_DETECTOR:ssn_neg_edge_detector|                                                                                          ; 2 (2)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|SPI_rx:rx_moule|EDGE_DETECTOR:ssn_neg_edge_detector                                                                                                                                                                                                                                                                                ; EDGE_DETECTOR                     ; work         ;
-;       |SPI_tx:tx_module|                                                                                                                ; 22 (21)             ; 27 (26)                   ; 0                 ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|SPI_tx:tx_module                                                                                                                                                                                                                                                                                                                   ; SPI_tx                            ; work         ;
+;       |SPI_tx:tx_module|                                                                                                                ; 37 (36)             ; 27 (26)                   ; 0                 ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|SPI_tx:tx_module                                                                                                                                                                                                                                                                                                                   ; SPI_tx                            ; work         ;
 ;          |EDGE_DETECTOR:sclk_neg_edge_detector|                                                                                         ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|SPI_tx:tx_module|EDGE_DETECTOR:sclk_neg_edge_detector                                                                                                                                                                                                                                                                              ; EDGE_DETECTOR                     ; work         ;
+;       |fifo:fifo_inst|                                                                                                                  ; 55 (0)              ; 35 (0)                    ; 32768             ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|fifo:fifo_inst                                                                                                                                                                                                                                                                                                                     ; fifo                              ; work         ;
+;          |scfifo:scfifo_component|                                                                                                      ; 55 (0)              ; 35 (0)                    ; 32768             ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component                                                                                                                                                                                                                                                                                             ; scfifo                            ; work         ;
+;             |scfifo_7ld1:auto_generated|                                                                                                ; 55 (0)              ; 35 (0)                    ; 32768             ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated                                                                                                                                                                                                                                                                  ; scfifo_7ld1                       ; work         ;
+;                |a_dpfifo_00a1:dpfifo|                                                                                                   ; 55 (13)             ; 35 (0)                    ; 32768             ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo                                                                                                                                                                                                                                             ; a_dpfifo_00a1                     ; work         ;
+;                   |a_fefifo_raf:fifo_state|                                                                                             ; 19 (7)              ; 13 (2)                    ; 0                 ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|a_fefifo_raf:fifo_state                                                                                                                                                                                                                     ; a_fefifo_raf                      ; work         ;
+;                      |cntr_bi7:count_usedw|                                                                                             ; 12 (12)             ; 11 (11)                   ; 0                 ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|a_fefifo_raf:fifo_state|cntr_bi7:count_usedw                                                                                                                                                                                                ; cntr_bi7                          ; work         ;
+;                   |altsyncram_04t1:FIFOram|                                                                                             ; 0 (0)               ; 0 (0)                     ; 32768             ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram                                                                                                                                                                                                                     ; altsyncram_04t1                   ; work         ;
+;                   |cntr_vhb:rd_ptr_count|                                                                                               ; 11 (11)             ; 11 (11)                   ; 0                 ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|cntr_vhb:rd_ptr_count                                                                                                                                                                                                                       ; cntr_vhb                          ; work         ;
+;                   |cntr_vhb:wr_ptr|                                                                                                     ; 12 (12)             ; 11 (11)                   ; 0                 ; 0          ; 0    ; 0            ; |DE0_CV|SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|cntr_vhb:wr_ptr                                                                                                                                                                                                                             ; cntr_vhb                          ; work         ;
 ;    |pll:the_pll|                                                                                                                        ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |DE0_CV|pll:the_pll                                                                                                                                                                                                                                                                                                                                ; pll                               ; pll          ;
 ;       |pll_0002:pll_inst|                                                                                                               ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |DE0_CV|pll:the_pll|pll_0002:pll_inst                                                                                                                                                                                                                                                                                                              ; pll_0002                          ; pll          ;
 ;          |altera_pll:altera_pll_i|                                                                                                      ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |DE0_CV|pll:the_pll|pll_0002:pll_inst|altera_pll:altera_pll_i                                                                                                                                                                                                                                                                                      ; altera_pll                        ; work         ;
@@ -386,6 +394,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name                                                                                                                                                                                                  ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size   ; MIF  ;
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+------+
 ; SPI:SPI|REGISTER_FILE:register_file_module|altsyncram:register_file_rtl_0|altsyncram_k3q1:auto_generated|ALTSYNCRAM                                                                                   ; AUTO ; Simple Dual Port ; 256          ; 16           ; 256          ; 16           ; 4096   ; None ;
+; SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|ALTSYNCRAM                                                                     ; AUTO ; Simple Dual Port ; 2048         ; 16           ; 2048         ; 16           ; 32768  ; None ;
 ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram|altsyncram_8l84:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 32768        ; 12           ; 32768        ; 12           ; 393216 ; None ;
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+------+
 
@@ -405,27 +414,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+--------------+---------+--------------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                                                                                                                                                                    ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
-; Register name                                                                                                                                                      ; Reason for Removal                                                                               ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
-; SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|cntr_vhb:wr_ptr|counter_reg_bit[0..10]                              ; Lost fanout                                                                                      ;
-; SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|cntr_vhb:rd_ptr_count|counter_reg_bit[0..10]                        ; Lost fanout                                                                                      ;
-; SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|a_fefifo_raf:fifo_state|b_full                                      ; Lost fanout                                                                                      ;
-; SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|a_fefifo_raf:fifo_state|b_non_empty                                 ; Lost fanout                                                                                      ;
-; SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|a_fefifo_raf:fifo_state|cntr_bi7:count_usedw|counter_reg_bit[0..10] ; Lost fanout                                                                                      ;
-; SPI:SPI|SPI_rx:rx_moule|access_location[1..30]                                                                                                                     ; Merged with SPI:SPI|SPI_rx:rx_moule|access_location[31]                                          ;
-; SPI:SPI|SPI_rx:rx_moule|current_state[4..9,11..31]                                                                                                                 ; Merged with SPI:SPI|SPI_rx:rx_moule|current_state[10]                                            ;
-; SPI:SPI|SPI_tx:tx_module|current_state[2..9,11..31]                                                                                                                ; Merged with SPI:SPI|SPI_tx:tx_module|current_state[10]                                           ;
-; SPI:SPI|SPI_tx:tx_module|EDGE_DETECTOR:sclk_neg_edge_detector|prev_prev_detect_signal                                                                              ; Merged with SPI:SPI|SPI_rx:rx_moule|EDGE_DETECTOR:sclk_pos_edge_detector|prev_prev_detect_signal ;
-; SPI:SPI|SPI_tx:tx_module|EDGE_DETECTOR:sclk_neg_edge_detector|prev_detect_signal                                                                                   ; Merged with SPI:SPI|SPI_rx:rx_moule|EDGE_DETECTOR:sclk_pos_edge_detector|prev_detect_signal      ;
-; SPI:SPI|SPI_rx:rx_moule|access_location[31]                                                                                                                        ; Stuck at GND due to stuck port data_in                                                           ;
-; SPI:SPI|SPI_tx:tx_module|current_state[10]                                                                                                                         ; Stuck at GND due to stuck port data_in                                                           ;
-; SPI:SPI|SPI_rx:rx_moule|current_state[10]                                                                                                                          ; Stuck at GND due to stuck port data_in                                                           ;
-; SPI:SPI|SPI_rx:rx_moule|address[7]                                                                                                                                 ; Merged with SPI:SPI|SPI_rx:rx_moule|access_location[0]                                           ;
-; Total Number of Removed Registers = 127                                                                                                                            ;                                                                                                  ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                                                                       ;
++---------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+; Register name                                                                         ; Reason for Removal                                                                               ;
++---------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+; SPI:SPI|SPI_rx:rx_moule|access_location[1..30]                                        ; Merged with SPI:SPI|SPI_rx:rx_moule|access_location[31]                                          ;
+; SPI:SPI|SPI_rx:rx_moule|current_state[4..9,11..31]                                    ; Merged with SPI:SPI|SPI_rx:rx_moule|current_state[10]                                            ;
+; SPI:SPI|SPI_tx:tx_module|current_state[2..9,11..31]                                   ; Merged with SPI:SPI|SPI_tx:tx_module|current_state[10]                                           ;
+; SPI:SPI|SPI_tx:tx_module|EDGE_DETECTOR:sclk_neg_edge_detector|prev_prev_detect_signal ; Merged with SPI:SPI|SPI_rx:rx_moule|EDGE_DETECTOR:sclk_pos_edge_detector|prev_prev_detect_signal ;
+; SPI:SPI|SPI_tx:tx_module|EDGE_DETECTOR:sclk_neg_edge_detector|prev_detect_signal      ; Merged with SPI:SPI|SPI_rx:rx_moule|EDGE_DETECTOR:sclk_pos_edge_detector|prev_detect_signal      ;
+; SPI:SPI|SPI_rx:rx_moule|access_location[31]                                           ; Stuck at GND due to stuck port data_in                                                           ;
+; SPI:SPI|SPI_tx:tx_module|current_state[10]                                            ; Stuck at GND due to stuck port data_in                                                           ;
+; SPI:SPI|SPI_rx:rx_moule|current_state[10]                                             ; Stuck at GND due to stuck port data_in                                                           ;
+; SPI:SPI|SPI_rx:rx_moule|address[7]                                                    ; Merged with SPI:SPI|SPI_rx:rx_moule|access_location[0]                                           ;
+; Total Number of Removed Registers = 92                                                ;                                                                                                  ;
++---------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -433,12 +437,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 726   ;
-; Number of registers using Synchronous Clear  ; 185   ;
-; Number of registers using Synchronous Load   ; 183   ;
-; Number of registers using Asynchronous Clear ; 301   ;
+; Total registers                              ; 763   ;
+; Number of registers using Synchronous Clear  ; 219   ;
+; Number of registers using Synchronous Load   ; 168   ;
+; Number of registers using Asynchronous Clear ; 303   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 446   ;
+; Number of registers using Clock Enable       ; 479   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -483,16 +487,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------+----------------------------------------------------------------+------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                   ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                         ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------+
-; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |DE0_CV|SPI:SPI|SPI_rx:rx_moule|shift_register[6]  ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |DE0_CV|SPI:SPI|SPI_rx:rx_moule|bit_counter[2]     ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |DE0_CV|SPI:SPI|SPI_tx:tx_module|send_counter[0]   ;
-; 4:1                ; 15 bits   ; 30 LEs        ; 0 LEs                ; 30 LEs                 ; Yes        ; |DE0_CV|SPI:SPI|SPI_tx:tx_module|shift_register[1] ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                          ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------+
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |DE0_CV|SPI:SPI|SPI_rx:rx_moule|shift_register[8]   ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |DE0_CV|SPI:SPI|SPI_rx:rx_moule|bit_counter[7]      ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |DE0_CV|SPI:SPI|SPI_tx:tx_module|send_counter[1]    ;
+; 5:1                ; 15 bits   ; 45 LEs        ; 30 LEs               ; 15 LEs                 ; Yes        ; |DE0_CV|SPI:SPI|SPI_tx:tx_module|shift_register[13] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------+
@@ -968,7 +972,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; almost_empty ; Output ; Info     ; Explicitly unconnected                                                                                                     ;
 ; empty        ; Output ; Info     ; Explicitly unconnected                                                                                                     ;
 ; full         ; Output ; Info     ; Explicitly unconnected                                                                                                     ;
-; q            ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                        ;
 ; usedw        ; Output ; Warning  ; Output or bidir port (11 bits) is wider than the port expression (1 bits) it drives; bit(s) "usedw[10..1]" have no fanouts ;
 ; usedw        ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                        ;
 +--------------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
@@ -1001,16 +1004,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------+--------+----------+----------------------------------------------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "SPI:SPI|SPI_rx:rx_moule"                                                                                        ;
-+-------------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port        ; Type   ; Severity ; Details                                                                                                  ;
-+-------------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; fifo_rd_req ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-; fifo_wr_req ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+-------------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
 +------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "SPI:SPI"                                                                                          ;
 +--------------------+--------+----------+-------------------------------------------------------------------------------------+
@@ -1034,31 +1027,34 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 86                          ;
-;     CLR               ; 15                          ;
+; arriav_ff             ; 123                         ;
+;     CLR               ; 17                          ;
 ;     ENA CLR           ; 24                          ;
-;     ENA CLR SCLR      ; 32                          ;
-;     ENA CLR SCLR SLD  ; 15                          ;
+;     ENA CLR SCLR      ; 47                          ;
+;     ENA SCLR          ; 33                          ;
+;     SCLR              ; 1                           ;
+;     plain             ; 1                           ;
 ; arriav_io_obuf        ; 78                          ;
-; arriav_lcell_comb     ; 56                          ;
-;     arith             ; 16                          ;
-;         1 data inputs ; 16                          ;
+; arriav_lcell_comb     ; 127                         ;
+;     arith             ; 49                          ;
+;         1 data inputs ; 39                          ;
+;         2 data inputs ; 10                          ;
 ;     extend            ; 1                           ;
 ;         7 data inputs ; 1                           ;
-;     normal            ; 39                          ;
+;     normal            ; 77                          ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 2                           ;
 ;         2 data inputs ; 8                           ;
-;         3 data inputs ; 3                           ;
-;         4 data inputs ; 9                           ;
-;         5 data inputs ; 8                           ;
-;         6 data inputs ; 8                           ;
+;         3 data inputs ; 15                          ;
+;         4 data inputs ; 10                          ;
+;         5 data inputs ; 9                           ;
+;         6 data inputs ; 32                          ;
 ; boundary_port         ; 149                         ;
 ; generic_pll           ; 1                           ;
-; stratixv_ram_block    ; 16                          ;
+; stratixv_ram_block    ; 32                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 0.80                        ;
+; Max LUT depth         ; 4.00                        ;
+; Average LUT depth     ; 1.26                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1067,7 +1063,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -1131,7 +1127,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Wed May 17 10:35:15 2023
+    Info: Processing started: Sat May 20 16:25:08 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DE0_CV -c DE0_CV
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -1230,13 +1226,14 @@ Info (12133): Instantiated megafunction "pll:the_pll|pll_0002:pll_inst|altera_pl
     Info (12134): Parameter "pll_type" = "General"
     Info (12134): Parameter "pll_subtype" = "General"
 Info (12128): Elaborating entity "SPI" for hierarchy "SPI:SPI" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv Line: 101
-Info (12128): Elaborating entity "SPI_rx" for hierarchy "SPI:SPI|SPI_rx:rx_moule" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv Line: 76
-Warning (10036): Verilog HDL or VHDL warning at SPI_rx.sv(56): object "rx_finish" assigned a value but never read File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv Line: 56
-Warning (10230): Verilog HDL assignment warning at SPI_rx.sv(104): truncated value with size 32 to match size of target (8) File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv Line: 104
-Info (12128): Elaborating entity "EDGE_DETECTOR" for hierarchy "SPI:SPI|SPI_rx:rx_moule|EDGE_DETECTOR:ssn_neg_edge_detector" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv Line: 31
-Info (12128): Elaborating entity "SPI_tx" for hierarchy "SPI:SPI|SPI_tx:tx_module" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv Line: 85
-Info (12128): Elaborating entity "REGISTER_FILE" for hierarchy "SPI:SPI|REGISTER_FILE:register_file_module" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv Line: 94
-Info (12128): Elaborating entity "fifo" for hierarchy "SPI:SPI|fifo:fifo_inst" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv Line: 108
+Info (12128): Elaborating entity "SPI_rx" for hierarchy "SPI:SPI|SPI_rx:rx_moule" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv Line: 80
+Warning (10036): Verilog HDL or VHDL warning at SPI_rx.sv(57): object "rx_finish" assigned a value but never read File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv Line: 57
+Warning (10230): Verilog HDL assignment warning at SPI_rx.sv(74): truncated value with size 32 to match size of target (1) File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv Line: 74
+Warning (10230): Verilog HDL assignment warning at SPI_rx.sv(108): truncated value with size 32 to match size of target (8) File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv Line: 108
+Info (12128): Elaborating entity "EDGE_DETECTOR" for hierarchy "SPI:SPI|SPI_rx:rx_moule|EDGE_DETECTOR:ssn_neg_edge_detector" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI_rx.sv Line: 32
+Info (12128): Elaborating entity "SPI_tx" for hierarchy "SPI:SPI|SPI_tx:tx_module" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv Line: 92
+Info (12128): Elaborating entity "REGISTER_FILE" for hierarchy "SPI:SPI|REGISTER_FILE:register_file_module" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv Line: 101
+Info (12128): Elaborating entity "fifo" for hierarchy "SPI:SPI|fifo:fifo_inst" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/SPI.sv Line: 115
 Info (12128): Elaborating entity "scfifo" for hierarchy "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v Line: 87
 Info (12130): Elaborated megafunction instantiation "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v Line: 87
 Info (12133): Instantiated megafunction "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component" with the following parameter: File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/fifo.v Line: 87
@@ -1295,7 +1292,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr
     Info (12023): Found entity 1: cmpr_99c File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/cmpr_99c.tdf Line: 23
 Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "auto_signaltap_0"
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2023.05.17.10:35:34 Progress: Loading slde51157c7/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2023.05.20.16:25:28 Progress: Loading slde51157c7/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -1318,24 +1315,6 @@ Info (12021): Found 2 design units, including 1 entities, in source file db/ip/s
     Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_sldfabric File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/ip/slde51157c7/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 11
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/slde51157c7/submodules/alt_sld_fab_alt_sld_fab_splitter.sv
     Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/ip/slde51157c7/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
-Warning (14284): Synthesized away the following node(s):
-    Warning (14285): Synthesized away the following RAM node(s):
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[0]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 40
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[1]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 70
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[2]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 100
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[3]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 130
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[4]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 160
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[5]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 190
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[6]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 220
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[7]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 250
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[8]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 280
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[9]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 310
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[10]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 340
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[11]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 370
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[12]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 400
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[13]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 430
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[14]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 460
-        Warning (14320): Synthesized away node "SPI:SPI|fifo:fifo_inst|scfifo:scfifo_component|scfifo_7ld1:auto_generated|a_dpfifo_00a1:dpfifo|altsyncram_04t1:FIFOram|q_b[15]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_04t1.tdf Line: 490
 Info (19000): Inferred 1 megafunctions from design logic
     Info (276029): Inferred altsyncram megafunction from the following design logic: "SPI:SPI|REGISTER_FILE:register_file_module|register_file_rtl_0" 
         Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
@@ -1374,7 +1353,7 @@ Info (12133): Instantiated megafunction "SPI:SPI|REGISTER_FILE:register_file_mod
     Info (12134): Parameter "RDCONTROL_REG_B" = "CLOCK0"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_k3q1.tdf
     Info (12023): Found entity 1: altsyncram_k3q1 File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/db/altsyncram_k3q1.tdf Line: 28
-Warning (12241): 5 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (12241): 4 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13034): The following nodes have both tri-state and non-tri-state drivers
     Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_0[3]" and its non-tri-state driver. File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv Line: 40
 Warning (13039): The following bidirectional pins have no drivers
@@ -1502,7 +1481,6 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "HEX5[6]" is stuck at GND File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv Line: 20
     Warning (13410): Pin "SD_CLK" is stuck at GND File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv Line: 31
 Info (286031): Timing-Driven Synthesis is running on partition "Top"
-Info (17049): 35 registers lost all their fanouts during netlist optimizations.
 Critical Warning (35025): Partially connected in-system debug instance "auto_signaltap_0" to 33 of its 46 required data inputs, trigger inputs, acquisition clocks, and dynamic pins.  There were 0 illegal, 0 inaccessible, and 13 missing sources or connections.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 14 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
@@ -1522,17 +1500,17 @@ Warning (21074): Design contains 15 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv Line: 36
     Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv Line: 36
     Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/choug/reconfigurable-soc/LAB10/SPI_plus_fifo/DE0_CV_SPI/design/DE0_CV.sv Line: 36
-Info (21057): Implemented 1145 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1217 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 21 input pins
     Info (21059): Implemented 54 output pins
     Info (21060): Implemented 78 bidirectional pins
-    Info (21061): Implemented 926 logic cells
-    Info (21064): Implemented 64 RAM segments
+    Info (21061): Implemented 982 logic cells
+    Info (21064): Implemented 80 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 172 warnings
-    Info: Peak virtual memory: 4917 megabytes
-    Info: Processing ended: Wed May 17 10:35:48 2023
-    Info: Elapsed time: 00:00:33
-    Info: Total CPU time (on all processors): 00:00:27
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 155 warnings
+    Info: Peak virtual memory: 4916 megabytes
+    Info: Processing ended: Sat May 20 16:25:44 2023
+    Info: Elapsed time: 00:00:36
+    Info: Total CPU time (on all processors): 00:00:28
 
 
